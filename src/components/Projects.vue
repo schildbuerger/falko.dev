@@ -3,26 +3,27 @@
     <div class="hero-body">
       <div class="container is-vcentered">
         <div class="columns">
-          <div class="column has-background-olaph box">
-            <div class="columns is-vcentered">
-              <div class="column is-one-half is-offset-1">
+          <div class="column bg-olaph box is-8 is-offset-2">
+            <div class="columns is-vcentered card-height">
+              <div class="column is-4 is-offset-1">
                 <div class="content">
-                  <h3 class="title has-text-white is-size-1">Olaph.io</h3>
-                  <p class="subtitle has-text-white is-size-7 is-uppercase">
-                    Product Lead
+                  <h3 class="title has-text-white is-size-1">Olaph</h3>
+                  <p class="subtitle has-text-white is-size-6">
+                    A Slack bot for daily standups.
                   </p>
-                  <p class="has-text-white is-size-6">
-                    A Slack Standup Bot
-                  </p>
-                  <a class="button is-white">More</a>
+                  <a class="button  is-outlined is-white is-medium m-t-sm">
+                    <span>Show Details</span>
+                    <span class="icon is-small">
+                      <i class="fas fa-caret-right"></i> </span
+                  ></a>
                 </div>
               </div>
-              <div class="column is-one-half">
-                <div class="">
+              <div class="column is-6 level">
+                <div class="level-item has-text-centered">
                   <div class="card-image">
-                    <figure class="image">
+                    <figure class="image m-t-xl">
                       <img
-                        src="../assets/logo_olaph.svg"
+                        src="../assets/olaph_preview.png"
                         alt="Placeholder image"
                       />
                     </figure>
@@ -49,5 +50,15 @@ export default {
 <style lang="scss">
 .has-background-olaph {
   background-color: #31b5aa !important;
+}
+.card-height {
+  height: 70vh;
+}
+.box {
+  box-shadow: 0 0px 10px rgba(black, 0.5), 0 0 0 1px rgba(black, 0.1) !important;
+}
+.bg-olaph {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, #31b5aa 0%, #73c4bc 35%, #d0e9e5 150%);
 }
 </style>

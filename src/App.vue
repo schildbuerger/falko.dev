@@ -7,6 +7,49 @@
 <style lang="scss">
 /*Custom styling */
 $card-shadow: 0 5px 10px rgba(black, 0.5), 0 0 0 1px rgba(black, 0.1) !important;
+.button {
+  border-radius: 100px !important;
+}
+$sizeUnit: rem;
+$marginKey: "m";
+$paddingKey: "p";
+$separator: "-";
+$sizes: (
+  ("none", 0),
+  ("xxs", 0.125),
+  ("xs", 0.25),
+  ("sm", 0.5),
+  ("md", 1),
+  ("lg", 2),
+  ("xl", 4),
+  ("xxl", 8)
+);
+$positions: (("t", "top"), ("r", "right"), ("b", "bottom"), ("l", "left"));
+
+@function sizeValue($key, $value) {
+  @return if($key == "none", 0, $value + $sizeUnit);
+}
+
+@each $size in $sizes {
+  $sizeKey: nth($size, 1);
+  $sizeValue: nth($size, 2);
+  .#{$marginKey}#{$separator}#{$sizeKey} {
+    margin: sizeValue($sizeKey, $sizeValue);
+  }
+  .#{$paddingKey}#{$separator}#{$sizeKey} {
+    padding: sizeValue($sizeKey, $sizeValue);
+  }
+  @each $position in $positions {
+    $posKey: nth($position, 1);
+    $posValue: nth($position, 2);
+    .#{$marginKey}#{$separator}#{$posKey}#{$separator}#{$sizeKey} {
+      margin-#{$posValue}: sizeValue($sizeKey, $sizeValue);
+    }
+    .#{$paddingKey}#{$separator}#{$posKey}#{$separator}#{$sizeKey} {
+      padding-#{$posValue}: sizeValue($sizeKey, $sizeValue);
+    }
+  }
+}
 @import "~bulma";
 </style>
 
