@@ -6,7 +6,6 @@
 
 <style lang="scss">
 /*Custom styling */
-$card-shadow: 0 5px 10px rgba(black, 0.5), 0 0 0 1px rgba(black, 0.1) !important;
 .button {
   border-radius: 100px !important;
 }

@@ -1,20 +1,32 @@
 <template>
-  <div>
+  <div class="has-scroll-snap">
     <cHero />
-    <cProjects />
+    <cProjectCollection />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import cHero from "@/components/Hero.vue";
-import cProjects from "@/components/Projects.vue";
+import cProjectCollection from "@/components/ProjectCollection.vue";
 
 export default {
   name: "vHome",
   components: {
     cHero,
-    cProjects
+    cProjectCollection
   }
 };
 </script>
+
+<style lang="scss">
+.has-scroll-snap {
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+.section {
+  scroll-snap-align: start;
+  min-width: 100vw;
+}
+</style>
