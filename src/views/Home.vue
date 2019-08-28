@@ -24,7 +24,7 @@ export default {
 
 <style lang="scss">
 .has-scroll-snap {
-  overflow: scroll;
+  overflow-x: hidden;
   height: 100vh;
   scroll-snap-type: y mandatory;
 }

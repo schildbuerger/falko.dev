@@ -27,5 +27,6 @@ export default {
 .has-snap-slider {
   scroll-snap-type: x mandatory;
   display: flex;
+  overflow-x: scroll;
 }
 </style>
