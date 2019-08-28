@@ -2,6 +2,7 @@
   <div class="has-scroll-snap">
     <cHero />
     <cProjectCollection />
+    <cBrands />
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 // @ is an alias to /src
 import cHero from "@/components/Hero.vue";
 import cProjectCollection from "@/components/ProjectCollection.vue";
+import cBrands from "@/components/Brands.vue";
 
 export default {
   name: "vHome",
   components: {
     cHero,
-    cProjectCollection
+    cProjectCollection,
+    cBrands
   }
 };
 </script>
