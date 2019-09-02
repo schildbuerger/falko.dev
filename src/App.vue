@@ -6,9 +6,6 @@
 
 <style lang="scss">
 /*Custom styling */
-.button {
-  border-radius: 100px !important;
-}
 $sizeUnit: rem;
 $marginKey: "m";
 $paddingKey: "p";

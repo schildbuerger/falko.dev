@@ -1,7 +1,5 @@
 <template>
-  <section class="section is-fullheight hero bg-brands">
-    Brands
-  </section>
+  <section class="section is-fullheight hero bg-brands"></section>
 </template>
 
 <script>
@@ -16,8 +14,7 @@ export default {
 
 <style lang="scss">
 .bg-brands {
-  background: url("https://thevalleygroup.com/wp-content/uploads/2015/09/Valley-Who-we-work-with-01.jpg")
-    center center no-repeat fixed;
+  background: url("../assets/brands.png") center center no-repeat fixed;
   background-size: contain;
 }
 </style>
