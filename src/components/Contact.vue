@@ -4,51 +4,44 @@
       <div class="container is-vcentered">
         <div class="columns">
           <div
-            class="column is-4 is-offset-4 is-6-tablet is-offset-3-tablet is-12-mobile"
+            class="column is-4-desktop is-offset-4 is-6-tablet is-offset-3-tablet is-12-mobile card"
           >
-            <div class="m-b-md has-text-centered">
-              <div class="field">
-                <div class="control has-icons-left">
-                  <input
-                    class="input is-dark is-large is-rounded"
-                    type="text"
-                    placeholder="msg@falko.fyi"
-                    value="msg@falko.fyi"
-                    readonly
-                  />
-                  <span class="icon is-large is-dark is-left">
-                    <i class="fas fa-envelope"></i>
-                  </span>
+            <div class="m-b-md has-text-centered card-content">
+              <h3 class="title is-1">Contact</h3>
+              <span class="icon">
+                <i class="fas fa-2x fa-envelope"></i>
+              </span>
+              <h4 class="title is-4 m-t-sm">
+                hi@falko.fyi
+              </h4>
+              <div class="columns is-mobile">
+                <div class="column is-2 is-offset-3 has-text-centered">
+                  <a
+                    class="icon is-large has-text-dark"
+                    href="https://www.linkedin.com/in/falkomoeller/"
+                    target="_blank"
+                  >
+                    <i class="fab fa-2x fa-linkedin-in"></i>
+                  </a>
                 </div>
-              </div>
-            </div>
-            <div class="columns is-mobile">
-              <div class="column is-4 has-text-centered">
-                <a
-                  class="icon is-large has-text-dark"
-                  href="https://www.linkedin.com/in/falkomoeller/"
-                  target="_blank"
-                >
-                  <i class="fab fa-3x fa-linkedin-in"></i>
-                </a>
-              </div>
-              <div class="column is-4 has-text-centered">
-                <a
-                  class="icon is-large has-text-dark"
-                  href="https://twitter.com/prod_ct"
-                  target="_blank"
-                >
-                  <i class="fab fa-3x fa-twitter"></i>
-                </a>
-              </div>
-              <div class="column is-4 has-text-centered">
-                <a
-                  class="icon is-large has-text-dark"
-                  href="https://medium.com/@falkomoeller"
-                  target="_blank"
-                >
-                  <i class="fab fa-3x fa-medium"></i>
-                </a>
+                <div class="column is-2 has-text-centered">
+                  <a
+                    class="icon is-large has-text-dark"
+                    href="https://twitter.com/prod_ct"
+                    target="_blank"
+                  >
+                    <i class="fab fa-2x fa-twitter"></i>
+                  </a>
+                </div>
+                <div class="column is-2 has-text-centered">
+                  <a
+                    class="icon is-large has-text-dark"
+                    href="https://medium.com/@falkomoeller"
+                    target="_blank"
+                  >
+                    <i class="fab fa-2x fa-medium"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -70,17 +63,7 @@ export default {
 
 <style lang="scss">
 .bg-berlin {
-  /* background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    #31b5aa 0%,
-    #73c4bc 35%,
-    #d0e9e5 150%
-  ) !important;*/
-  background-color: white !important;
-  background: url("https://quoteddata.com/wp-content/uploads/2019/08/190808-psdl.png")
-    center bottom no-repeat fixed;
+  background: url("") center center no-repeat fixed;
   background-size: cover;
-  background-position-y: 1rem;
 }
 </style>
