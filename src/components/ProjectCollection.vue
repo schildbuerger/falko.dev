@@ -27,6 +27,9 @@ export default {
 </script>
 
 <style lang="scss">
+img {
+  max-height: 70vh;
+}
 .has-snap-slider {
   scroll-snap-type: x mandatory;
   display: flex;

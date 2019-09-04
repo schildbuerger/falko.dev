@@ -6,8 +6,14 @@
 
 <style lang="scss">
 /*Custom styling */
-img {
-  max-height: 75vh;
+.title,
+.subtitle,
+a,
+span {
+  font-family: "Raleway", sans-serif !important;
+}
+p {
+  font-family: "Lato", serif !important;
 }
 $sizeUnit: rem;
 $marginKey: "m";

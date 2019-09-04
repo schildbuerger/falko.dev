@@ -1,7 +1,7 @@
 <template>
-  <section class="section is-fullheight hero bg-lava">
+  <section class="section is-fullheight hero bg-lava is-hidden-mobile">
     <div class="columns is-fullheight hero-body">
-      <div class="column is-4 is-offset-1">
+      <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
         <div class="content">
           <h3 class="title is-size-1">The Floor is Lava</h3>
           <p class="subtitle is-size-6">
@@ -14,7 +14,7 @@
           ></a>
         </div>
       </div>
-      <div class="column is-6 level">
+      <div class="column is-6-desktop level is-12-mobile level">
         <div class="level-item has-text-centered">
           <div class="card-image">
             <figure class="image">
@@ -36,7 +36,12 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+img {
+  max-height: 50vh;
+  box-shadow: 5px 7px lightgray;
+  border-radius: 50px;
+}
 .bg-lava {
   background: url("") center center no-repeat fixed;
   background-size: cover;
