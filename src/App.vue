@@ -6,6 +6,9 @@
 
 <style lang="scss">
 /*Custom styling */
+img {
+  max-height: 75vh;
+}
 $sizeUnit: rem;
 $marginKey: "m";
 $paddingKey: "p";

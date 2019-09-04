@@ -5,7 +5,7 @@
         <div class="content">
           <h3 class="title is-size-1">The Floor is Lava</h3>
           <p class="subtitle is-size-6">
-            Podcast about agile leadership and future of work.
+            Podcast about agile leadership and the future of work.
           </p>
           <a class="button  is-outlined is-medium m-t-sm">
             <span>Show Details</span>
@@ -17,8 +17,8 @@
       <div class="column is-6 level">
         <div class="level-item has-text-centered">
           <div class="card-image">
-            <figure class="image m-t-xl">
-              <img src="../assets/olaph_preview.png" alt="Placeholder image" />
+            <figure class="image">
+              <img src="../assets/lava_preview.png" alt="Placeholder image" />
             </figure>
           </div>
         </div>

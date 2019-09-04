@@ -3,9 +3,9 @@
     <div class="columns is-fullheight hero-body">
       <div class="column is-4 is-offset-1">
         <div class="content">
-          <h3 class="title is-size-1">Olaph</h3>
+          <h3 class="title is-size-1">Sparwelt</h3>
           <p class="subtitle is-size-6">
-            Slack-Bot for daily standups.
+            Affiliate Voucher &amp; Coupon Portal.
           </p>
           <a class="button  is-outlined is-medium m-t-sm">
             <span>Show Details</span>
@@ -18,7 +18,10 @@
         <div class="level-item has-text-centered">
           <div class="card-image">
             <figure class="image">
-              <img src="../assets/olaph_preview.png" alt="Placeholder image" />
+              <img
+                src="../assets/sparwelt_preview.png"
+                alt="Placeholder image"
+              />
             </figure>
           </div>
         </div>
@@ -29,7 +32,7 @@
 
 <script>
 export default {
-  name: "cProjectOlaph",
+  name: "cProjectSparwelt",
   props: {
     msg: String
   }

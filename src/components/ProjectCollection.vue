@@ -1,6 +1,7 @@
 <template>
   <div class="has-snap-slider">
     <cProjectOlaph />
+    <cProjectSparwelt />
     <cProjectLava />
   </div>
 </template>
@@ -9,6 +10,7 @@
 //import cProject from "@/components/Project.vue";
 import cProjectOlaph from "@/components/ProjectOlaph.vue";
 import cProjectLava from "@/components/ProjectLava.vue";
+import cProjectSparwelt from "@/components/ProjectSparwelt.vue";
 
 export default {
   name: "cProjectCollection",
@@ -18,7 +20,8 @@ export default {
   components: {
     //   cProject,
     cProjectOlaph,
-    cProjectLava
+    cProjectLava,
+    cProjectSparwelt
   }
 };
 </script>
