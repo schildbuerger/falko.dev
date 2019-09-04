@@ -5,7 +5,7 @@
         <div class="content">
           <h3 class="title is-size-1">Sparwelt</h3>
           <p class="subtitle is-size-6">
-            Affiliate Voucher &amp; Coupon Portal.
+            Affiliate Voucher &amp; Coupon Portal
           </p>
           <a class="button  is-outlined is-medium m-t-sm">
             <span>Show Details</span>
