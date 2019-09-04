@@ -1,6 +1,7 @@
 <template>
   <div class="has-scroll-snap">
     <cHero />
+    <cProject />
     <cProjectCollection />
     <cBrands />
     <cContact />
@@ -13,6 +14,7 @@ import cHero from "@/components/Hero.vue";
 import cProjectCollection from "@/components/ProjectCollection.vue";
 import cBrands from "@/components/Brands.vue";
 import cContact from "@/components/Contact.vue";
+import cProject from "@/components/Project.vue";
 
 export default {
   name: "vHome",
@@ -20,7 +22,8 @@ export default {
     cHero,
     cProjectCollection,
     cBrands,
-    cContact
+    cContact,
+    cProject
   }
 };
 </script>
