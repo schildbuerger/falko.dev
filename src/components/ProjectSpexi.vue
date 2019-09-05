@@ -1,13 +1,11 @@
 <template>
   <section class="section is-fullheight hero bg is-hidden-mobile">
-    <div class="columns is-fullheight hero-body is-hidden-mobile">
-      <div
-        class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet"
-      >
+    <div class="columns is-fullheight hero-body">
+      <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
         <div class="content">
-          <h3 class="title is-size-1">Olaph</h3>
+          <h3 class="title is-size-1">Mister Spex</h3>
           <p class="subtitle is-size-6">
-            Slack-Bot for daily standups.
+            Online Shop for Eyewear.
           </p>
           <a class="button  is-outlined is-medium m-t-sm">
             <span>Show Details</span>
@@ -16,22 +14,25 @@
           ></a>
         </div>
       </div>
-      <div class="column is-6-desktop level is-12-mobile is-6-tablet">
-        <!-- <div class="level-item has-text-centered">
+      <!-- <div class="column is-6-desktop level is-12-mobile">
+        <div class="level-item has-text-centered">
           <div class="card-image">
             <figure class="image">
-              <img src="../assets/olaph_preview.png" alt="Placeholder image" />
+              <img
+                src="../assets/sparwelt_preview.png"
+                alt="Placeholder image"
+              />
             </figure>
           </div>
-        </div> -->
-      </div>
+        </div>
+      </div> -->
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: "cProjectOlaph",
+  name: "cProjectSpexi",
   props: {
     msg: String
   }
@@ -40,7 +41,8 @@ export default {
 
 <style lang="scss" scoped>
 .bg {
-  background: url("../assets/olaph_preview_2.png") bottom right no-repeat fixed;
-  background-size: 80vw;
+  background: url("../assets/spexi_preview.png") center right 10vw no-repeat
+    fixed;
+  background-size: 50vw;
 }
 </style>

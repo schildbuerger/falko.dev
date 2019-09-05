@@ -5,9 +5,9 @@
         class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet"
       >
         <div class="content">
-          <h3 class="title is-size-1">Olaph</h3>
+          <h3 class="title is-size-1">Urban Coffee Discovery</h3>
           <p class="subtitle is-size-6">
-            Slack-Bot for daily standups.
+            Pop-up Online Shop.
           </p>
           <a class="button  is-outlined is-medium m-t-sm">
             <span>Show Details</span>
@@ -31,7 +31,7 @@
 
 <script>
 export default {
-  name: "cProjectOlaph",
+  name: "cProjectUCD",
   props: {
     msg: String
   }
@@ -40,7 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .bg {
-  background: url("../assets/olaph_preview_2.png") bottom right no-repeat fixed;
-  background-size: 80vw;
+  background: url("../assets/ucd_preview.png") center right 5vw no-repeat fixed;
+  background-size: 55vw;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <section class="section is-fullheight hero bg-olaph is-hidden-mobile">
+  <section class="section is-fullheight hero bg-sparwelt is-hidden-mobile">
     <div class="columns is-fullheight hero-body">
       <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
         <div class="content">
@@ -14,7 +14,7 @@
           ></a>
         </div>
       </div>
-      <div class="column is-6-desktop level is-12-mobile">
+      <!-- <div class="column is-6-desktop level is-12-mobile">
         <div class="level-item has-text-centered">
           <div class="card-image">
             <figure class="image">
@@ -25,7 +25,7 @@
             </figure>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
@@ -40,8 +40,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.bg-olaph {
-  background: url("") center center no-repeat fixed;
-  background-size: cover;
+.bg-sparwelt {
+  background: url("../assets/sparwelt_preview.png") center right 10vw no-repeat
+    fixed;
+  background-size: 60vw;
 }
 </style>

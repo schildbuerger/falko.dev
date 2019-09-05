@@ -1,5 +1,5 @@
 <template>
-  <section class="section is-fullheight hero bg-lava is-hidden-mobile">
+  <section class="section is-fullheight hero bg is-hidden-mobile">
     <div class="columns is-fullheight hero-body">
       <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
         <div class="content">
@@ -14,7 +14,7 @@
           ></a>
         </div>
       </div>
-      <div class="column is-6-desktop level is-12-mobile level">
+      <!-- <div class="column is-6-desktop level is-12-mobile level">
         <div class="level-item has-text-centered">
           <div class="card-image">
             <figure class="image">
@@ -22,7 +22,7 @@
             </figure>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
@@ -42,8 +42,9 @@ img {
   box-shadow: 5px 7px lightgray;
   border-radius: 50px;
 }
-.bg-lava {
-  background: url("") center center no-repeat fixed;
-  background-size: cover;
+.bg {
+  background: url("../assets/lava_preview_2.png") bottom -10vw right 10vw no-repeat
+    fixed;
+  background-size: 40vw;
 }
 </style>
