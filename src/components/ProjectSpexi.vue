@@ -3,11 +3,11 @@
     <div class="columns is-fullheight hero-body">
       <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
         <div class="content">
-          <h3 class="title is-size-1">Mister Spex</h3>
-          <p class="subtitle is-size-6">
+          <h3 class="title is-size-1 has-text-white">Mister Spex</h3>
+          <p class="subtitle is-size-6 has-text-white">
             Online Shop for Eyewear.
           </p>
-          <a class="button  is-outlined is-medium m-t-sm">
+          <a class="button is-white is-outlined is-medium m-t-sm">
             <span>Show Details</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
@@ -44,5 +44,6 @@ export default {
   background: url("../assets/spexi_preview.png") center right 10vw no-repeat
     fixed;
   background-size: 50vw;
+  background-color: #2f323a;
 }
 </style>

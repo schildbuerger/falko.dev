@@ -3,11 +3,11 @@
     <div class="columns is-fullheight hero-body">
       <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
         <div class="content">
-          <h3 class="title is-size-1">The Floor is Lava</h3>
-          <p class="subtitle is-size-6">
-            Podcast about agile leadership and the future of work.
+          <h3 class="title is-size-1 has-text-white">The Floor is Lava</h3>
+          <p class="subtitle is-size-6 has-text-white">
+            Podcast about tech, agile leadership, and the future of work.
           </p>
-          <a class="button  is-outlined is-medium m-t-sm">
+          <a class="button is-white is-outlined is-medium m-t-sm">
             <span>Show Details</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
@@ -46,5 +46,6 @@ img {
   background: url("../assets/lava_preview_2.png") bottom -10vw right 10vw no-repeat
     fixed;
   background-size: 40vw;
+  background-color: #f95757;
 }
 </style>

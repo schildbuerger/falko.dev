@@ -3,11 +3,11 @@
     <div class="columns is-fullheight hero-body">
       <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
         <div class="content">
-          <h3 class="title is-size-1">Sparwelt</h3>
-          <p class="subtitle is-size-6">
+          <h3 class="title is-size-1 has-text-white">Sparwelt</h3>
+          <p class="subtitle is-size-6 has-text-white">
             Affiliate Voucher &amp; Coupon Portal.
           </p>
-          <a class="button  is-outlined is-medium m-t-sm">
+          <a class="button is-white is-outlined is-medium m-t-sm">
             <span>Show Details</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
@@ -44,5 +44,6 @@ export default {
   background: url("../assets/sparwelt_preview.png") center right 10vw no-repeat
     fixed;
   background-size: 60vw;
+  background-color: #196db7;
 }
 </style>

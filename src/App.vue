@@ -6,14 +6,14 @@
 
 <style lang="scss">
 /*Custom styling */
-.title,
+.title {
+  font-family: "Fjalla One", sans-serif !important;
+}
+p,
 .subtitle,
 a,
 span {
-  font-family: "Raleway", sans-serif !important;
-}
-p {
-  font-family: "Lato", serif !important;
+  font-family: "Noto Sans", serif !important;
 }
 $sizeUnit: rem;
 $marginKey: "m";
