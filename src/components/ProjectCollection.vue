@@ -3,8 +3,12 @@
     <cProjectOlaph />
     <cProjectUCD />
     <cProjectLava />
+    <cProjectJokidotem />
     <cProjectSparwelt />
     <cProjectSpexi />
+    <cProjectBargain />
+    <cProjectWareable />
+    <cProjectWunderkarten />
   </div>
 </template>
 
@@ -15,6 +19,10 @@ import cProjectLava from "@/components/ProjectLava.vue";
 import cProjectSparwelt from "@/components/ProjectSparwelt.vue";
 import cProjectSpexi from "@/components/ProjectSpexi.vue";
 import cProjectUCD from "@/components/ProjectUCD.vue";
+import cProjectBargain from "@/components/ProjectBargain.vue";
+import cProjectWareable from "@/components/ProjectWareable.vue";
+import cProjectWunderkarten from "@/components/ProjectWunderkarten.vue";
+import cProjectJokidotem from "@/components/ProjectJokidotem.vue";
 
 export default {
   name: "cProjectCollection",
@@ -27,7 +35,11 @@ export default {
     cProjectLava,
     cProjectSparwelt,
     cProjectSpexi,
-    cProjectUCD
+    cProjectUCD,
+    cProjectBargain,
+    cProjectWareable,
+    cProjectWunderkarten,
+    cProjectJokidotem
   }
 };
 </script>

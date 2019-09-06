@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container has-text-right is-vcentered">
         <h1 class="title">Falko Moeller</h1>
-        <h2 class="subtitle">Product Innovation &amp; Strategy</h2>
+        <h2 class="subtitle">Product Innovation &amp; Leadership</h2>
       </div>
     </div>
   </section>
