@@ -1,5 +1,5 @@
 <template>
-  <div class="has-snap-slider">
+  <div class="has-snap-slider snap-start">
     <cProjectOlaph />
     <cProjectUCD />
     <cProjectLava />
@@ -52,5 +52,8 @@ img {
   scroll-snap-type: x mandatory;
   display: flex;
   overflow-x: scroll;
+}
+.snap-start {
+  scroll-snap-align: start;
 }
 </style>
