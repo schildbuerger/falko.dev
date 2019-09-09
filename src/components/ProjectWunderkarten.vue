@@ -5,7 +5,7 @@
         class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet"
       >
         <div class="content">
-          <h3 class="title is-size-1 has-text-white">Wunderkarten</h3>
+          <h3 class="title is-size-1 has-text-white">Bonnyprints</h3>
           <p class="subtitle is-size-6 has-text-white">
             Web2Print Online Shop.
           </p>

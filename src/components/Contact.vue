@@ -21,10 +21,15 @@
         <h4 class="title is-1 has-text-white">
           hi@falko.fyi
         </h4>
-        <div class="columns is-mobile">
-          <div class="column is-2 is-offset-3 has-text-centered">
+        <div class="columns is-centered is-mobile">
+          <div
+            class="
+          column
+          is-2
+          has-text-centered"
+          >
             <a
-              class="icon is-large has-text-white"
+              class="icon is-medium has-text-white"
               href="https://www.linkedin.com/in/falkomoeller/"
               target="_blank"
             >
@@ -33,7 +38,7 @@
           </div>
           <div class="column is-2 has-text-centered">
             <a
-              class="icon is-large has-text-white"
+              class="icon is-medium has-text-white"
               href="https://twitter.com/prod_ct"
               target="_blank"
             >
@@ -42,7 +47,7 @@
           </div>
           <div class="column is-2 has-text-centered">
             <a
-              class="icon is-large has-text-white"
+              class="icon is-medium has-text-white"
               href="https://medium.com/@falkomoeller"
               target="_blank"
             >
