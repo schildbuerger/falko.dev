@@ -1,5 +1,6 @@
 <template>
   <div class="has-snap-slider snap-start">
+    <cProjectCover />
     <cProjectOlaph />
     <cProjectUCD />
     <cProjectLava />
@@ -23,6 +24,7 @@ import cProjectBargain from "@/components/ProjectBargain.vue";
 import cProjectWareable from "@/components/ProjectWareable.vue";
 import cProjectWunderkarten from "@/components/ProjectWunderkarten.vue";
 import cProjectJokidotem from "@/components/ProjectJokidotem.vue";
+import cProjectCover from "@/components/ProjectCover.vue";
 
 export default {
   name: "cProjectCollection",
@@ -39,7 +41,8 @@ export default {
     cProjectBargain,
     cProjectWareable,
     cProjectWunderkarten,
-    cProjectJokidotem
+    cProjectJokidotem,
+    cProjectCover
   }
 };
 </script>
