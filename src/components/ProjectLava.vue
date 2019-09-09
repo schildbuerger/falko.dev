@@ -1,5 +1,5 @@
 <template>
-  <section class="section is-fullheight hero bg is-hidden-mobile">
+  <section class="section is-fullheight hero bg">
     <div class="columns is-fullheight hero-body">
       <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
         <div class="content">
@@ -14,15 +14,6 @@
           ></a>
         </div>
       </div>
-      <!-- <div class="column is-6-desktop level is-12-mobile level">
-        <div class="level-item has-text-centered">
-          <div class="card-image">
-            <figure class="image">
-              <img src="../assets/lava_preview.png" alt="Placeholder image" />
-            </figure>
-          </div>
-        </div>
-      </div> -->
     </div>
   </section>
 </template>
@@ -37,15 +28,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-img {
-  max-height: 50vh;
-  box-shadow: 5px 7px lightgray;
-  border-radius: 50px;
+@media screen and (min-width: 769px) {
+  .bg {
+    background: url("../assets/lava_preview_2.png") bottom -10vw right 10vw no-repeat
+      fixed;
+    background-size: 40vw;
+    background-color: #f95757;
+  }
 }
-.bg {
-  background: url("../assets/lava_preview_2.png") bottom -10vw right 10vw no-repeat
-    fixed;
-  background-size: 40vw;
-  background-color: #f95757;
+@media screen and (max-width: 768px) {
+  .bg {
+    background: url("../assets/lava_preview_2.png") bottom -23vh center no-repeat
+      fixed;
+    background-size: 95vw;
+    background-color: #f95757;
+  }
 }
 </style>

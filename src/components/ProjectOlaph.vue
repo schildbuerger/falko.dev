@@ -42,7 +42,7 @@ export default {
   .bg {
     background: url("../assets/olaph_preview_2.png") bottom right no-repeat
       fixed;
-    background-size: 100vw;
+    background-size: 110vw;
     background-color: #50c5b7;
   }
 }
