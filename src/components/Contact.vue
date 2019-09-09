@@ -1,14 +1,16 @@
 <template>
-  <section class="section is-fullheight hero bg is-hidden-mobile">
-    <div class="columns is-fullheight hero-body is-hidden-mobile">
+  <section class="section is-fullheight hero bg">
+    <div class="columns is-inline-mobile is-multiline is-fullheight hero-body">
       <div
         class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet"
       >
         <div class="content">
-          <h3 class="title is-1 has-text-white">
+          <h3
+            class="title is-1 is-size-1-mobile has-text-white has-text-centered-mobile"
+          >
             That's all folks!<br />
-            <span class="title is-1 has-text-grey-light">
-              For more please contact me.
+            <span class="title is-1 is-size-2-mobile has-text-grey-light">
+              For more, please contact me.
             </span>
           </h3>
         </div>
@@ -65,8 +67,9 @@ export default {
 
 <style lang="scss" scoped>
 .bg {
-  background: url(/img/bg01.d9aa08fb.jpg) center left 30vh no-repeat fixed;
+  background: url(../assets/contact_background.svg) bottom center no-repeat
+    fixed;
   background-size: cover;
-  background-color: #2d2e44;
+  background-color: #373e62;
 }
 </style>

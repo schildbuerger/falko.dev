@@ -1,6 +1,6 @@
 <template>
-  <section class="section is-fullheight hero bg is-hidden-mobile">
-    <div class="columns is-fullheight hero-body is-hidden-mobile">
+  <section class="section is-fullheight hero bg">
+    <div class="columns is-fullheight hero-body">
       <div
         class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet"
       >
@@ -16,15 +16,6 @@
           ></a>
         </div>
       </div>
-      <div class="column is-6-desktop level is-12-mobile is-6-tablet">
-        <!-- <div class="level-item has-text-centered">
-          <div class="card-image">
-            <figure class="image">
-              <img src="../assets/olaph_preview.png" alt="Placeholder image" />
-            </figure>
-          </div>
-        </div> -->
-      </div>
     </div>
   </section>
 </template>
@@ -39,9 +30,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.bg {
-  background: url("../assets/olaph_preview_2.png") bottom right no-repeat fixed;
-  background-size: 75vw;
-  background-color: #50c5b7;
+@media screen and (min-width: 769px) {
+  .bg {
+    background: url("../assets/olaph_preview_2.png") bottom right no-repeat
+      fixed;
+    background-size: 75vw;
+    background-color: #50c5b7;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bg {
+    background: url("../assets/olaph_preview_2.png") bottom right no-repeat
+      fixed;
+    background-size: 100vw;
+    background-color: #50c5b7;
+  }
 }
 </style>
