@@ -1,6 +1,6 @@
 <template>
   <section class="section is-fullheight hero bg">
-    <div class="columns is-fullheight hero-body">
+    <div class="columns is-inline-mobile is-fullheight hero-body">
       <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
         <div class="content">
           <h3 class="title is-size-1 has-text-white">Sparwelt</h3>
@@ -38,7 +38,7 @@ export default {
 }
 @media screen and (max-width: 768px) {
   .bg {
-    background: url("../assets/sparwelt_preview.png") bottom 5vh center
+    background: url("../assets/sparwelt_preview.png") bottom 35vw center
       no-repeat fixed;
     background-size: 90vw;
     background-color: #196db7;

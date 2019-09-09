@@ -1,6 +1,6 @@
 <template>
   <section class="section is-fullheight hero bg">
-    <div class="columns is-fullheight hero-body">
+    <div class="columns is-inline-mobile is-fullheight hero-body">
       <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
         <div class="content">
           <h3 class="title is-size-1 has-text-white">The Floor is Lava</h3>
@@ -38,9 +38,9 @@ export default {
 }
 @media screen and (max-width: 768px) {
   .bg {
-    background: url("../assets/lava_preview_2.png") bottom -23vh center no-repeat
+    background: url("../assets/lava_preview_2.png") bottom 10vw center no-repeat
       fixed;
-    background-size: 95vw;
+    background-size: 75vw;
     background-color: #f95757;
   }
 }

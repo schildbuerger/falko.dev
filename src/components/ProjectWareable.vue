@@ -1,6 +1,6 @@
 <template>
   <section class="section is-fullheight hero bg">
-    <div class="columns is-fullheight hero-body">
+    <div class="columns is-inline-mobile is-fullheight hero-body">
       <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
         <div class="content">
           <h3 class="title is-size-1 has-text-white">Wareable</h3>
@@ -38,9 +38,9 @@ export default {
 }
 @media screen and (max-width: 768px) {
   .bg {
-    background: url(/img/wareable_preview.d5b75a7d.png) bottom right -8vw no-repeat
+    background: url("../assets/wareable_preview.png") bottom right -10vw no-repeat
       fixed;
-    background-size: 60vw;
+    background-size: 80vw;
     background-color: #2f323a;
   }
 }

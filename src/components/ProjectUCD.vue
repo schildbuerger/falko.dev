@@ -1,6 +1,6 @@
 <template>
   <section class="section is-fullheight hero bg">
-    <div class="columns is-fullheight hero-body">
+    <div class="columns is-inline-mobile is-fullheight hero-body">
       <div
         class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet"
       >
@@ -40,7 +40,8 @@ export default {
 }
 @media screen and (max-width: 768px) {
   .bg {
-    background: url("../assets/ucd_preview.png") bottom center no-repeat fixed;
+    background: url("../assets/ucd_preview.png") bottom 20vh center no-repeat
+      fixed;
     background-size: 100vw;
     background-color: #f6ad49;
   }

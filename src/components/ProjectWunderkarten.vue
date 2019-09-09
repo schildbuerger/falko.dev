@@ -1,6 +1,6 @@
 <template>
   <section class="section is-fullheight hero bg">
-    <div class="columns is-fullheight hero-body">
+    <div class="columns is-inline-mobile is-fullheight hero-body">
       <div
         class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet"
       >
@@ -40,7 +40,7 @@ export default {
 }
 @media screen and (max-width: 768px) {
   .bg {
-    background: url(/img/wunderkarten_preview.82a88355.png) bottom -20vw right -60vw
+    background: url("../assets/wunderkarten_preview.png") bottom 20vw right -55vw
       no-repeat fixed;
     background-size: 150vw;
     background-color: #9bc53d;

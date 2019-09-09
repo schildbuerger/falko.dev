@@ -1,6 +1,6 @@
 <template>
   <section class="section is-fullheight hero bg">
-    <div class="columns is-fullheight hero-body">
+    <div class="columns is-inline-mobile is-fullheight hero-body">
       <div
         class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet"
       >
@@ -40,8 +40,8 @@ export default {
 }
 @media screen and (max-width: 768px) {
   .bg {
-    background: url(/img/bargainmoose_preview.fe256c4d.png) bottom right -70vw no-repeat
-      fixed;
+    background: url("../assets/bargainmoose_preview.png") bottom 30vw right -60vw
+      no-repeat fixed;
     background-size: 155vw;
     background-color: #e71d36;
   }
