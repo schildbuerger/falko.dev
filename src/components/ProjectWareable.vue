@@ -7,7 +7,7 @@
           <p class="subtitle is-size-6 has-text-white">
             Tech-Blog about Wearable Technology.
           </p>
-          <a class="button is-white is-outlined is-medium m-t-sm">
+          <a class="button is-rounded is-white is-outlined is-medium m-t-sm">
             <span>Show Details</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
