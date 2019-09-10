@@ -27,21 +27,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@media screen and (min-width: 769px) {
-  .bg {
-    background: url("../assets/wareable_preview.png") bottom -5vw right 10vw no-repeat
-      fixed;
-    background-size: 40vw;
-    background-color: #2f323a;
-  }
-}
-@media screen and (max-width: 768px) {
-  .bg {
-    background: url("../assets/wareable_preview.png") bottom right -10vw no-repeat
-      fixed;
-    background-size: 80vw;
-    background-color: #2f323a;
-  }
-}
+<style lang="sass" scoped>
+.bg
+  background: url("../assets/img/wareable_preview.png") bottom right -10vw no-repeat fixed #2f323a
+  background-size: 80vw
+  @include tablet
+    background: url("../assets/img/wareable_preview.png") bottom -5vw right 10vw no-repeat fixed #2f323a
+    background-size: 40vw
 </style>

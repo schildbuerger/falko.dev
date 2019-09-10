@@ -27,21 +27,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@media screen and (min-width: 769px) {
-  .bg {
-    background: url("../assets/lava_preview_2.png") bottom -10vw right 10vw no-repeat
-      fixed;
-    background-size: 40vw;
-    background-color: #f95757;
-  }
-}
-@media screen and (max-width: 768px) {
-  .bg {
-    background: url("../assets/lava_preview_2.png") bottom 10vw center no-repeat
-      fixed;
-    background-size: 75vw;
-    background-color: #f95757;
-  }
-}
+<style lang="sass" scoped>
+.bg
+  background: url("../assets/img/lava_preview_2.png") bottom 10vw center no-repeat fixed #f95757
+  background-size: 75vw
+  @include tablet
+    background: url("../assets/img/lava_preview_2.png") bottom -10vw right 10vw no-repeat fixed #f95757
+    background-size: 40vw
 </style>

@@ -29,21 +29,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@media screen and (min-width: 769px) {
-  .bg {
-    background: url("../assets/ucd_preview.png") center right 5vw no-repeat
-      fixed;
-    background-size: 55vw;
-    background-color: #f6ad49;
-  }
-}
-@media screen and (max-width: 768px) {
-  .bg {
-    background: url("../assets/ucd_preview.png") bottom 20vh center no-repeat
-      fixed;
-    background-size: 100vw;
-    background-color: #f6ad49;
-  }
-}
+<style lang="sass" scoped>
+.bg
+  background: url("../assets/img/ucd_preview.png") bottom 20vh center no-repeat fixed #f6ad49
+  background-size: 100vw
+  @include tablet
+    background: url("../assets/img/ucd_preview.png") center right 5vw no-repeat fixed #f6ad49
+    background-size: 55vw
 </style>

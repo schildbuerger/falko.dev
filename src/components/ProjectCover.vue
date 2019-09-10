@@ -24,21 +24,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@media screen and (min-width: 769px) {
-  .bg {
-    background: url("../assets/selection_preview.png") center right 5vw
-      no-repeat fixed;
-    background-size: 50vw;
-    background-color: #333;
-  }
-}
-@media screen and (max-width: 768px) {
-  .bg {
-    background: url("../assets/selection_preview.png") bottom 20vh right -35vw no-repeat
-      fixed;
-    background-size: 115vw;
-    background-color: #333;
-  }
-}
+<style lang="sass" scoped>
+.bg
+  background: url("../assets/img/selection_preview.png") bottom 20vh right -35vw no-repeat fixed #333
+  background-size: 115vw
+  @include tablet
+    background: url("../assets/img/selection_preview.png") center right 5vw no-repeat fixed #333
+    background-size: 50vw
 </style>

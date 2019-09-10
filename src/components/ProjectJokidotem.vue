@@ -27,21 +27,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@media screen and (min-width: 769px) {
-  .bg {
-    background: url("../assets/jokidotem_preview.png") center right no-repeat
-      fixed;
-    background-size: 55vw;
-    background-color: #736f72;
-  }
-}
-@media screen and (max-width: 768px) {
-  .bg {
-    background: url("../assets/jokidotem_preview.png") bottom -10vh right -35vw
-      no-repeat fixed;
-    background-size: 75vh;
-    background-color: #736f72;
-  }
-}
+<style lang="sass" scoped>
+.bg
+  background: url("../assets/img/jokidotem_preview.png") bottom -10vh right -35vw no-repeat fixed #736f72
+  background-size: 75vh
+  @include tablet
+    background: url("../assets/img/jokidotem_preview.png") center right no-repeat fixed #736f72
+    background-size: 55vw
 </style>

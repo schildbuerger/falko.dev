@@ -27,21 +27,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@media screen and (min-width: 769px) {
-  .bg {
-    background: url("../assets/spexi_preview.png") center right 10vw no-repeat
-      fixed;
-    background-size: 50vw;
-    background-color: #2f323a;
-  }
-}
-@media screen and (max-width: 768px) {
-  .bg {
-    background: url("../assets/spexi_preview.png") bottom 30vw right 3vh
-      no-repeat fixed;
-    background-size: 80vw;
-    background-color: #2f323a;
-  }
-}
+<style lang="sass" scoped>
+.bg
+  background: url("../assets/img/spexi_preview.png") bottom 30vw right 3vh no-repeat fixed #2f323a
+  background-size: 98vw
+  @include tablet
+    background: url("../assets/img/spexi_preview.png") center right 10vw no-repeat fixed #2f323a
+    background-size: 50vw
 </style>

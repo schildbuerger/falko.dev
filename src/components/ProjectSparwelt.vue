@@ -27,21 +27,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@media screen and (min-width: 769px) {
-  .bg {
-    background: url("../assets/sparwelt_preview.png") center right 10vw
-      no-repeat fixed;
-    background-size: 60vw;
-    background-color: #196db7;
-  }
-}
-@media screen and (max-width: 768px) {
-  .bg {
-    background: url("../assets/sparwelt_preview.png") bottom 35vw center
-      no-repeat fixed;
-    background-size: 90vw;
-    background-color: #196db7;
-  }
-}
+<style lang="sass" scoped>
+.bg
+  background: url("../assets/img/sparwelt_preview.png") bottom 35vw center no-repeat fixed #196db7
+  background-size: 90vw
+  @include tablet
+    background: url("../assets/img/sparwelt_preview.png") center right 10vw no-repeat fixed #196db7
+    background-size: 60vw
 </style>

@@ -29,21 +29,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@media screen and (min-width: 769px) {
-  .bg {
-    background: url("../assets/wunderkarten_preview.png") bottom -20vw right -30vw
-      no-repeat fixed;
-    background-size: 100vw;
-    background-color: #9bc53d;
-  }
-}
-@media screen and (max-width: 768px) {
-  .bg {
-    background: url("../assets/wunderkarten_preview.png") bottom 20vw right -55vw
-      no-repeat fixed;
-    background-size: 150vw;
-    background-color: #9bc53d;
-  }
-}
+<style lang="sass" scoped>
+.bg
+  background: url("../assets/img/wunderkarten_preview.png") bottom 20vw right -55vw no-repeat fixed #9bc53d
+  background-size: 150vw
+  @include tablet
+    background: url("../assets/img/wunderkarten_preview.png") bottom -20vw right -30vw no-repeat fixed #9bc53d
+    background-size: 100vw
 </style>

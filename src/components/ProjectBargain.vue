@@ -31,9 +31,9 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/bargainmoose_preview.png") bottom 30vw right -60vw no-repeat fixed #e71d36
+  background: url("../assets/img/bargainmoose_preview.png") bottom 30vw right -60vw no-repeat fixed #e71d36
   background-size: 155vw
   @include tablet
-    background: url("../assets/bargainmoose_preview.png") center right -20vw no-repeat fixed #e71d36
+    background: url("../assets/img/bargainmoose_preview.png") center right -20vw no-repeat fixed #e71d36
     background-size: 80vw
 </style>

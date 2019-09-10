@@ -14,7 +14,7 @@ export default {
 
 <style lang="scss">
 .bg-brands {
-  background: url("../assets/brands.png") center center no-repeat fixed;
+  background: url("../assets/img/brands.png") center center no-repeat fixed;
   background-size: contain;
 }
 </style>

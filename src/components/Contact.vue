@@ -72,7 +72,7 @@ export default {
 
 <style lang="scss" scoped>
 .bg {
-  background: url(../assets/contact_background.svg) bottom center no-repeat
+  background: url(../assets/img/contact_background.svg) bottom center no-repeat
     fixed;
   background-size: cover;
   background-color: #373e62;
