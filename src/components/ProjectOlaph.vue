@@ -9,13 +9,43 @@
           <p class="subtitle is-size-6 has-text-white">
             Slack-Bot for daily standups.
           </p>
-          <a class="button is-rounded is-white is-outlined is-medium m-t-sm">
+          <a
+            v-on:click="isShowModal = true"
+            class="button is-rounded is-white is-outlined is-medium m-t-sm"
+          >
             <span>Show Details</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
           ></a>
         </div>
       </div>
+    </div>
+    <div class="modal" v-bind:class="{ 'is-active': isShowModal }">
+      <div class="modal-background" v-on:click="isShowModal = false"></div>
+      <div class="modal-content">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img
+                src="https://bulma.io/images/placeholders/1280x960.png"
+                alt="Placeholder image"
+              />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              nec iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+              <a href="#">#responsive</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="modal-close is-large"
+        aria-label="close"
+        v-on:click="isShowModal = false"
+      ></button>
     </div>
   </section>
 </template>
@@ -25,6 +55,11 @@ export default {
   name: "cProjectOlaph",
   props: {
     msg: String
+  },
+  data: function() {
+    return {
+      isShowModal: false
+    };
   }
 };
 </script>
