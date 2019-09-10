@@ -25,19 +25,25 @@
       <div class="modal-content">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-4by3">
+            <figure class="image is-3by1">
               <img
                 src="https://bulma.io/images/placeholders/1280x960.png"
                 alt="Placeholder image"
               />
             </figure>
           </div>
-          <div class="card-content">
-            <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              nec iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
-              <a href="#">#responsive</a>
-            </div>
+          <div class="content is-small">
+            <p>
+              In 2018 we were looking for a tool to support our Daily Standups
+              inside of Slack for our remote working teams. The result of that
+              research was disillusioning. No solution did what we wanted for a
+              reasonable price. Thus we decided to build one ourselves and make
+              it free for everyone to use. Olaph was born (hatched?).
+            </p>
+            <p class="hero title is-4 has-background-primary has-text-white">
+              Support teams in their daily collaboration and educate them about
+              agile &amp; lean principles.
+            </p>
           </div>
         </div>
       </div>
@@ -64,21 +70,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@media screen and (min-width: 769px) {
-  .bg {
-    background: url("../assets/olaph_preview_2.png") bottom right no-repeat
-      fixed;
-    background-size: 75vw;
-    background-color: #50c5b7;
-  }
-}
-@media screen and (max-width: 768px) {
-  .bg {
-    background: url("../assets/olaph_preview_2.png") bottom right no-repeat
-      fixed;
-    background-size: 110vw;
-    background-color: #50c5b7;
-  }
-}
+<style lang="sass" scoped>
+.bg
+  background: url("../assets/olaph_preview_2.png") bottom right no-repeat fixed #50c5b7
+  background-size: 110vw
+  @include tablet
+    background-size: 75vw
 </style>

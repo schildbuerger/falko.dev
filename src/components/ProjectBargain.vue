@@ -29,21 +29,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@media screen and (min-width: 769px) {
-  .bg {
-    background: url("../assets/bargainmoose_preview.png") center right -20vw no-repeat
-      fixed;
-    background-size: 80vw;
-    background-color: #e71d36;
-  }
-}
-@media screen and (max-width: 768px) {
-  .bg {
-    background: url("../assets/bargainmoose_preview.png") bottom 30vw right -60vw
-      no-repeat fixed;
-    background-size: 155vw;
-    background-color: #e71d36;
-  }
-}
+<style lang="sass" scoped>
+.bg
+  background: url("../assets/bargainmoose_preview.png") bottom 30vw right -60vw no-repeat fixed #e71d36
+  background-size: 155vw
+  @include tablet
+    background: url("../assets/bargainmoose_preview.png") center right -20vw no-repeat fixed #e71d36
+    background-size: 80vw
 </style>

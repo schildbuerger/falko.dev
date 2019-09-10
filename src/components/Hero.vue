@@ -1,5 +1,5 @@
 <template>
-  <section class="section is-fullheight hero bg-hero">
+  <section class="section is-fullheight hero bg">
     <div class="hero-body">
       <div class="container has-text-right is-vcentered">
         <h1 class="title">Falko Moeller</h1>
@@ -18,9 +18,10 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-.bg-hero {
-  background: url("") center center no-repeat fixed;
-  background-size: cover;
-}
+<style scoped lang="sass">
+.bg
+  background: url("") center center no-repeat fixed
+  background-size: cover
+  @include tablet
+    background-color: white
 </style>
