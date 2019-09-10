@@ -23,28 +23,38 @@
     <div class="modal" v-bind:class="{ 'is-active': isShowModal }">
       <div class="modal-background" v-on:click="isShowModal = false"></div>
       <div class="modal-content">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-3by1">
-              <img
-                src="https://bulma.io/images/placeholders/1280x960.png"
-                alt="Placeholder image"
-              />
-            </figure>
-          </div>
-          <div class="content is-small">
-            <p>
-              In 2018 we were looking for a tool to support our Daily Standups
-              inside of Slack for our remote working teams. The result of that
-              research was disillusioning. No solution did what we wanted for a
-              reasonable price. Thus we decided to build one ourselves and make
-              it free for everyone to use. Olaph was born (hatched?).
+        <div class="card has-snap-slider snap-start">
+          <section class="is-fullheight hero">
+            <div class="hero-body">
+              <figure class="image">
+                <img src="../assets/img/olaph_hoothoot.png" />
+              </figure>
+              <h4 class="title is-4">What is Olaph?</h4>
+              <p>
+                Olaph is a Standup-Bot for Slack. Its purpose is to support
+                teams facilitating daily standups inside of Slack or act as a
+                preparation tool for the actual standup.
+              </p>
+            </div>
+          </section>
+          <section class="is-fullheight hero">
+            <div class="hero-body">
+              <h4 class="title is-4">Origin</h4>
+              <p>
+                In 2018 we were looking for a tool to support our Daily Standups
+                inside of Slack for our remote working teams. The result of that
+                research was disillusioning. No solution did what we wanted for
+                a reasonable price. Thus we decided to build one ourselves and
+                make it free for everyone to use. Olaph was born (hatched?).
+              </p>
+            </div>
+            <p
+              class="title hero-body is-4 has-background-primary has-text-white has-text-right"
+            >
+              &#xbb;Support teams in their daily collaboration and educate them
+              about agile &amp; lean principles.&#xab;
             </p>
-            <p class="hero title is-4 has-background-primary has-text-white">
-              Support teams in their daily collaboration and educate them about
-              agile &amp; lean principles.
-            </p>
-          </div>
+          </section>
         </div>
       </div>
       <button
