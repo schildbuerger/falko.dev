@@ -4,7 +4,7 @@
       <div
         class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet"
       >
-        <div class="content">
+        <div>
           <h3
             class="title is-1 is-size-1-mobile has-text-white has-text-centered-mobile"
           >

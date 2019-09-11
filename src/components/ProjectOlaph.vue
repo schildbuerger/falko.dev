@@ -23,38 +23,46 @@
     <div class="modal" v-bind:class="{ 'is-active': isShowModal }">
       <div class="modal-background" v-on:click="isShowModal = false"></div>
       <div class="modal-content">
-        <div class="card has-snap-slider snap-start">
-          <section class="is-fullheight hero">
-            <div class="hero-body">
-              <figure class="image">
-                <img src="../assets/img/olaph_hoothoot.png" />
-              </figure>
-              <h4 class="title is-4">What is Olaph?</h4>
-              <p>
-                Olaph is a Standup-Bot for Slack. Its purpose is to support
-                teams facilitating daily standups inside of Slack or act as a
-                preparation tool for the actual standup.
-              </p>
-            </div>
-          </section>
-          <section class="is-fullheight hero">
-            <div class="hero-body">
-              <h4 class="title is-4">Origin</h4>
-              <p>
-                In 2018 we were looking for a tool to support our Daily Standups
-                inside of Slack for our remote working teams. The result of that
-                research was disillusioning. No solution did what we wanted for
-                a reasonable price. Thus we decided to build one ourselves and
-                make it free for everyone to use. Olaph was born (hatched?).
-              </p>
-            </div>
-            <p
-              class="title hero-body is-4 has-background-primary has-text-white has-text-right"
-            >
-              &#xbb;Support teams in their daily collaboration and educate them
-              about agile &amp; lean principles.&#xab;
+        <div class="card">
+          <div class="bg-olaph">
+            <figure class="image">
+              <img src="../assets/img/olaph_banner.png" />
+            </figure>
+          </div>
+          <div class="modal-card-body">
+            <h4 class="title is-4 is-marginless p-b-sm">What is Olaph?</h4>
+            <p>
+              Olaph is a Standup-Bot for Slack. Its purpose is to support teams
+              facilitating daily standups inside of Slack or act as a
+              preparation tool for the actual standup.
             </p>
-          </section>
+          </div>
+          <div>
+            <figure class="image is-5by3 sit-olaph">
+              <img src="../assets/img/olaph_reading.svg" />
+            </figure>
+          </div>
+          <p
+            class="title hero-body is-block is-4 bg-olaph has-text-white has-text-centered is-marginless"
+          >
+            Over 6K users in over 800 teams.
+          </p>
+          <div class="modal-card-body">
+            <h4 class="title is-4 is-marginless p-b-sm">Origin</h4>
+            <p>
+              In 2018 we were looking for a tool to support our Daily Standups
+              inside of Slack for our remote working teams. The result of that
+              research was disillusioning. No solution did what we wanted for a
+              reasonable price. Thus we decided to build one ourselves and make
+              it free for everyone to use. Little Olaph hatched.
+            </p>
+          </div>
+          <p
+            class="title hero-body is-4 bg-olaph has-text-white has-text-right is-marginless"
+          >
+            &#xbb;Support teams in their daily collaboration and educate them
+            about agile &amp; lean principles.&#xab;
+          </p>
         </div>
       </div>
       <button
@@ -82,8 +90,12 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/olaph_preview_2.png") bottom right no-repeat fixed #50c5b7
+  background: url("../assets/img/olaph_preview_2.png") bottom right no-repeat fixed $olaph
   background-size: 110vw
   @include tablet
     background-size: 75vw
+.bg-olaph
+  background-color: $olaph
+.sit-olaph
+  margin-bottom: -30px
 </style>
