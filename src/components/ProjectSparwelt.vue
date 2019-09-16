@@ -7,8 +7,12 @@
           <p class="subtitle is-size-6 has-text-white">
             Affiliate Voucher &amp; Coupon Portal.
           </p>
-          <a class="button is-rounded is-white is-outlined is-medium m-t-sm">
-            <span>Show Details</span>
+          <a
+            href="https://www.sparwelt.de/"
+            target="_blank"
+            class="button is-rounded is-white is-outlined is-medium m-t-sm"
+          >
+            <span>Take me there</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
           ></a>
@@ -29,7 +33,7 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/sparwelt_preview.png") bottom 35vw center no-repeat fixed #196db7
+  background: url("../assets/img/sparwelt_preview.png") bottom 25vw center no-repeat fixed #196db7
   background-size: 90vw
   @include tablet
     background: url("../assets/img/sparwelt_preview.png") center right 10vw no-repeat fixed #196db7

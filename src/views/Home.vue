@@ -24,14 +24,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.has-scroll-snap {
-  overflow-x: hidden;
-  height: 100vh;
-  scroll-snap-type: y mandatory;
-}
-.section {
-  scroll-snap-align: start;
-  min-width: 100vw;
-}
-</style>
+<style lang="scss"></style>

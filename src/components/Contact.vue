@@ -9,7 +9,7 @@
             class="title is-1 is-size-1-mobile has-text-white has-text-centered-mobile"
           >
             That's all folks!<br />
-            <span class="title is-1 is-size-2-mobile has-text-grey-light">
+            <span class="title is-5 is-size-5-mobile has-text-grey-light">
               For more, please contact me.
             </span>
           </h3>

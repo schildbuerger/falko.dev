@@ -10,10 +10,11 @@
             Slack-Bot for daily standups.
           </p>
           <a
-            v-on:click="isShowModal = true"
+            href="https://olaph.io/"
+            target="_blank"
             class="button is-rounded is-white is-outlined is-medium m-t-sm"
           >
-            <span>Show Details</span>
+            <span>Take me there</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
           ></a>
@@ -79,11 +80,6 @@ export default {
   name: "cProjectOlaph",
   props: {
     msg: String
-  },
-  data: function() {
-    return {
-      isShowModal: false
-    };
   }
 };
 </script>

@@ -9,8 +9,12 @@
           <p class="subtitle is-size-6 has-text-white">
             Web2Print Online Shop.
           </p>
-          <a class="button is-rounded is-white is-outlined is-medium m-t-sm">
-            <span>Show Details</span>
+          <a
+            href="https://www.wunderkarten.de/"
+            target="_blank"
+            class="button is-rounded is-white is-outlined is-medium m-t-sm"
+          >
+            <span>Take me there</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
           ></a>
@@ -31,7 +35,7 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/wunderkarten_preview.png") bottom 20vw right -55vw no-repeat fixed #9bc53d
+  background: url("../assets/img/wunderkarten_preview.png") bottom 0vh right -55vw no-repeat fixed #9bc53d
   background-size: 150vw
   @include tablet
     background: url("../assets/img/wunderkarten_preview.png") bottom -20vw right -30vw no-repeat fixed #9bc53d

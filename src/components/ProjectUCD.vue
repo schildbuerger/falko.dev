@@ -9,11 +9,15 @@
           <p class="subtitle is-size-6 has-text-white">
             Pop-up Online Shop.
           </p>
-          <a class="button is-rounded is-white is-outlined is-medium m-t-sm">
-            <span>Show Details</span>
+          <!-- <a
+            href=""
+            target="_blank"
+            class="button is-rounded is-white is-outlined is-medium m-t-sm"
+          >
+            <span>Take me there</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
-          ></a>
+          ></a> -->
         </div>
       </div>
     </div>
@@ -31,7 +35,7 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/ucd_preview.png") bottom 20vh center no-repeat fixed #f6ad49
+  background: url("../assets/img/ucd_preview.png") bottom 5vh center no-repeat fixed #f6ad49
   background-size: 100vw
   @include tablet
     background: url("../assets/img/ucd_preview.png") center right 5vw no-repeat fixed #f6ad49

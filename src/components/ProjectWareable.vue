@@ -7,8 +7,12 @@
           <p class="subtitle is-size-6 has-text-white">
             Tech-Blog about Wearable Technology.
           </p>
-          <a class="button is-rounded is-white is-outlined is-medium m-t-sm">
-            <span>Show Details</span>
+          <a
+            href="https://www.wareable.com/"
+            target="_blank"
+            class="button is-rounded is-white is-outlined is-medium m-t-sm"
+          >
+            <span>Take me there</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
           ></a>
@@ -29,7 +33,7 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/wareable_preview.png") bottom right -10vw no-repeat fixed #2f323a
+  background: url("../assets/img/wareable_preview.png") bottom -10vh right -10vw no-repeat fixed #2f323a
   background-size: 80vw
   @include tablet
     background: url("../assets/img/wareable_preview.png") bottom -5vw right 10vw no-repeat fixed #2f323a

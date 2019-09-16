@@ -15,6 +15,11 @@ export default new Router({
       path: "/imprint",
       name: "imprint",
       component: () => import("./views/Imprint.vue")
+    },
+    {
+      path: "/olaph",
+      name: "olaph",
+      component: () => import("./views/Olaph.vue")
     }
   ]
 });

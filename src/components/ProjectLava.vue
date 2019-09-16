@@ -7,8 +7,12 @@
           <p class="subtitle is-size-6 has-text-white">
             Podcast about tech, agile leadership, and the future of work.
           </p>
-          <a class="button is-rounded is-white is-outlined is-medium m-t-sm">
-            <span>Show Details</span>
+          <a
+            href="https://podcasts.apple.com/de/podcast/the-floor-is-lava/id1435068510"
+            target="_blank"
+            class="button is-rounded is-white is-outlined is-medium m-t-sm"
+          >
+            <span>Take me there</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
           ></a>
@@ -29,7 +33,7 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/lava_preview_2.png") bottom 10vw center no-repeat fixed #f95757
+  background: url("../assets/img/lava_preview_2.png") bottom -15vw center no-repeat fixed #f95757
   background-size: 75vw
   @include tablet
     background: url("../assets/img/lava_preview_2.png") bottom -10vw right 10vw no-repeat fixed #f95757

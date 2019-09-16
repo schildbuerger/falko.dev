@@ -7,8 +7,12 @@
           <p class="subtitle is-size-6 has-text-white">
             Online Shop for Eyewear.
           </p>
-          <a class="button is-rounded is-white is-outlined is-medium m-t-sm">
-            <span>Show Details</span>
+          <a
+            href="https://www.misterspex.de/"
+            target="_blank"
+            class="button is-rounded is-white is-outlined is-medium m-t-sm"
+          >
+            <span>Take me there</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
           ></a>
@@ -29,7 +33,7 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/spexi_preview.png") bottom 30vw right 3vh no-repeat fixed #2f323a
+  background: url("../assets/img/spexi_preview.png") bottom 5vw right 3vh no-repeat fixed #2f323a
   background-size: 98vw
   @include tablet
     background: url("../assets/img/spexi_preview.png") center right 10vw no-repeat fixed #2f323a

@@ -9,8 +9,12 @@
           <p class="subtitle is-size-6 has-text-white">
             Affiliate Voucher &amp; Coupon Portal.
           </p>
-          <a class="button is-rounded is-white is-outlined is-medium m-t-sm">
-            <span>Show Details</span>
+          <a
+            href="https://www.bargainmoose.ca/"
+            class="button is-rounded is-white is-outlined is-medium m-t-sm"
+            target="_blank"
+          >
+            <span>Take me there</span>
             <span class="icon is-small">
               <i class="fas fa-caret-right"></i> </span
           ></a>
@@ -31,7 +35,7 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/bargainmoose_preview.png") bottom 30vw right -60vw no-repeat fixed #e71d36
+  background: url("../assets/img/bargainmoose_preview.png") bottom 5vw right -60vw no-repeat fixed #e71d36
   background-size: 155vw
   @include tablet
     background: url("../assets/img/bargainmoose_preview.png") center right -20vw no-repeat fixed #e71d36

@@ -1,4 +1,13 @@
 /*Custom styling */
+.has-scroll-snap {
+  overflow-x: hidden;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+.section {
+  scroll-snap-align: start;
+  min-width: 100vw;
+}
 $olaph: #50C5B7;
 .title {
   font-family: "Fjalla One", sans-serif !important;
