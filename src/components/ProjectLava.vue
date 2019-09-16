@@ -33,9 +33,9 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/lava_preview_2.png") bottom -15vw center no-repeat fixed #f95757
+  background: url("../assets/img/lava_preview_2-min.png") bottom -15vw center no-repeat fixed #f95757
   background-size: 75vw
   @include tablet
-    background: url("../assets/img/lava_preview_2.png") bottom -10vw right 10vw no-repeat fixed #f95757
+    background: url("../assets/img/lava_preview_2-min.png") bottom -10vw right 10vw no-repeat fixed #f95757
     background-size: 40vw
 </style>

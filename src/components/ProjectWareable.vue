@@ -33,9 +33,9 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/wareable_preview.png") bottom -10vh right -10vw no-repeat fixed #2f323a
+  background: url("../assets/img/wareable_preview-min.png") bottom -10vh right -10vw no-repeat fixed #2f323a
   background-size: 80vw
   @include tablet
-    background: url("../assets/img/wareable_preview.png") bottom -5vw right 10vw no-repeat fixed #2f323a
+    background: url("../assets/img/wareable_preview-min.png") bottom -5vw right 10vw no-repeat fixed #2f323a
     background-size: 40vw
 </style>

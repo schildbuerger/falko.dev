@@ -35,9 +35,9 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/ucd_preview.png") bottom 5vh center no-repeat fixed #f6ad49
+  background: url("../assets/img/ucd_preview-min.png") bottom 5vh center no-repeat fixed #f6ad49
   background-size: 100vw
   @include tablet
-    background: url("../assets/img/ucd_preview.png") center right 5vw no-repeat fixed #f6ad49
+    background: url("../assets/img/ucd_preview-min.png") center right 5vw no-repeat fixed #f6ad49
     background-size: 55vw
 </style>

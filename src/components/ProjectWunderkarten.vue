@@ -35,9 +35,9 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/wunderkarten_preview.png") bottom 0vh right -55vw no-repeat fixed #9bc53d
+  background: url("../assets/img/wunderkarten_preview-min.png") bottom 0vh right -55vw no-repeat fixed #9bc53d
   background-size: 150vw
   @include tablet
-    background: url("../assets/img/wunderkarten_preview.png") bottom -20vw right -30vw no-repeat fixed #9bc53d
+    background: url("../assets/img/wunderkarten_preview-min.png") bottom -20vw right -30vw no-repeat fixed #9bc53d
     background-size: 100vw
 </style>

@@ -33,9 +33,9 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/jokidotem_preview.png") bottom -15vh right -35vw no-repeat fixed #736f72
+  background: url("../assets/img/jokidotem_preview-min.png") bottom -15vh right -35vw no-repeat fixed #736f72
   background-size: 75vh
   @include tablet
-    background: url("../assets/img/jokidotem_preview.png") center right no-repeat fixed #736f72
+    background: url("../assets/img/jokidotem_preview-min.png") center right no-repeat fixed #736f72
     background-size: 55vw
 </style>

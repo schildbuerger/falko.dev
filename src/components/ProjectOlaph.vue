@@ -86,7 +86,7 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/olaph_preview_2.png") bottom right no-repeat fixed $olaph
+  background: url("../assets/img/olaph_preview_2-min.png") bottom right no-repeat fixed $olaph
   background-size: 110vw
   @include tablet
     background-size: 75vw

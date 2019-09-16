@@ -33,9 +33,9 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/spexi_preview.png") bottom 5vw right 3vh no-repeat fixed #2f323a
+  background: url("../assets/img/spexi_preview-min.png") bottom 5vw right 3vh no-repeat fixed #2f323a
   background-size: 98vw
   @include tablet
-    background: url("../assets/img/spexi_preview.png") center right 10vw no-repeat fixed #2f323a
+    background: url("../assets/img/spexi_preview-min.png") center right 10vw no-repeat fixed #2f323a
     background-size: 50vw
 </style>

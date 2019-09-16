@@ -26,9 +26,9 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/selection_preview.png") bottom 5vh right -35vw no-repeat fixed #333
+  background: url("../assets/img/selection_preview-min.png") bottom 5vh right -35vw no-repeat fixed #333
   background-size: 115vw
   @include tablet
-    background: url("../assets/img/selection_preview.png") center right 5vw no-repeat fixed #333
+    background: url("../assets/img/selection_preview-min.png") center right 5vw no-repeat fixed #333
     background-size: 50vw
 </style>

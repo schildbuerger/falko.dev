@@ -33,9 +33,9 @@ export default {
 
 <style lang="sass" scoped>
 .bg
-  background: url("../assets/img/sparwelt_preview.png") bottom 25vw center no-repeat fixed #196db7
+  background: url("../assets/img/sparwelt_preview-min.png") bottom 25vw center no-repeat fixed #196db7
   background-size: 90vw
   @include tablet
-    background: url("../assets/img/sparwelt_preview.png") center right 10vw no-repeat fixed #196db7
+    background: url("../assets/img/sparwelt_preview-min.png") center right 10vw no-repeat fixed #196db7
     background-size: 60vw
 </style>
