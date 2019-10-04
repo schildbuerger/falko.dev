@@ -1,5 +1,5 @@
 <template>
-  <section class="section is-fullheight hero bg">
+  <section id="olaph" class="section is-fullheight hero bg">
     <div class="columns is-inline-mobile is-fullheight hero-body">
       <div
         class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet"
