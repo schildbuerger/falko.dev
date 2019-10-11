@@ -1,9 +1,6 @@
 <template>
   <div>
     <div class="has-snap-slider snap-start is-relative">
-      <!--     <a href="#4" class="is-hidden-mobile paginator has-text-white m-r-xl">
-      <span class="arrow"> </span>
-    </a> -->
       <section
         class="section is-fullheight hero"
         :class="item.bclass"
@@ -32,8 +29,13 @@
           </div>
         </div>
       </section>
+      <div class="paginator">
+        <a v-on:click="increment">
+          <span class="arrow"> </span>
+        </a>
+      </div>
     </div>
-    <div class="dotstyle dotstyle-fillup">
+    <!-- <div class="dotstyle dotstyle-fillup">
       <ul>
         <li
           v-for="item in items"
@@ -43,7 +45,7 @@
           <a @click="selectItem(item.id)"></a>
         </li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -120,19 +122,17 @@ export default {
           bclass: "bg-wunderkarten",
           link: "https://www.wunderkarten.de/"
         }
-      ]
+      ],
+      counter: 0
     };
-  },
-  mounted() {
-    /*     const left = this.$refs.slide_1.getClientRects.left;
-        const top = this.$refs.slide_1.clientLeft;
-    
-        console.log(top, left); */
   },
   methods: {
     selectItem(id) {
       this.activeItem = id;
       window.location.hash = id;
+    },
+    increment() {
+      this.counter++;
     }
   }
 };
@@ -149,11 +149,9 @@ export default {
   scroll-behavior: smooth;
 }
 .paginator {
-  position: absolute;
-  right: 0;
-  color: white;
-  margin-top: 50vh;
-  cursor: pointer;
+  position: fixed;
+  top: 50vh;
+  right: 3em;
 }
 </style>
 
