@@ -28,12 +28,12 @@
             </div>
           </div>
         </div>
+        <div class="paginator">
+          <a :href="item.scrollTo">
+            <span class="arrow"> </span>
+          </a>
+        </div>
       </section>
-      <div class="paginator">
-        <a v-on:click="increment">
-          <span class="arrow"> </span>
-        </a>
-      </div>
     </div>
     <!-- <div class="dotstyle dotstyle-fillup">
       <ul>
@@ -57,70 +57,79 @@ export default {
       activeItem: null,
       items: [
         {
-          id: "1",
+          id: "olaph",
           title: "Olaph",
           description: "Slack-Bot for daily standups.",
           bclass: "bg-olaph",
-          link: "http://olaph.io"
+          link: "http://olaph.io",
+          scrollTo: "#urbancoffeediscovery"
         },
         {
-          id: "2",
+          id: "urbancoffeediscovery",
           title: "Urban Coffee Discovery",
           description: "Pop-up Online Shop.",
           bclass: "bg-ucd",
-          link: "http://urbancoffeediscovery.com"
+          link: "http://urbancoffeediscovery.com",
+          scrollTo: "#jokidotem"
         },
         {
-          id: "3",
+          id: "jokidotem",
           title: "Jokidotem",
           description: "Meetup about Collaboration of Dev, Design, & Product.",
           bclass: "bg-jokidotem",
           link:
-            "https://www.meetup.com/Jokidotem-Closing-the-chasm-between-dev-design-and-product/"
+            "https://www.meetup.com/Jokidotem-Closing-the-chasm-between-dev-design-and-product/",
+          scrollTo: "#thefloorislava"
         },
         {
-          id: "4",
+          id: "thefloorislava",
           title: "The Floor is Lava",
           description:
             "Podcast about tech, agile leadership, & the future of work.",
           bclass: "bg-lava",
           link:
-            "https://podcasts.apple.com/de/podcast/the-floor-is-lava/id1435068510"
+            "https://podcasts.apple.com/de/podcast/the-floor-is-lava/id1435068510",
+          scrollTo: "#sparwelt"
         },
         {
-          id: "5",
+          id: "sparwelt",
           title: "Sparwelt",
           description: "Affiliate Voucher & Coupon Portal.",
           bclass: "bg-sparwelt",
-          link: "https://www.sparwelt.de/"
+          link: "https://www.sparwelt.de/",
+          scrollTo: "#misterspex"
         },
         {
-          id: "6",
+          id: "misterspex",
           title: "Mister Spex",
           description: "Online Shop for Eyewear.",
           bclass: "bg-spexi",
-          link: "https://www.misterspex.de/"
+          link: "https://www.misterspex.de/",
+          scrollTo: "#bargainmoose"
         },
         {
-          id: "7",
+          id: "bargainmoose",
           title: "Bargainmoose",
           description: "Affiliate Voucher & Coupon Portal.",
           bclass: "bg-bargain",
-          link: "https://www.bargainmoose.ca/"
+          link: "https://www.bargainmoose.ca/",
+          scrollTo: "#wareable"
         },
         {
-          id: "8",
+          id: "wareable",
           title: "Wareable",
           description: "Tech-Blog about Wearable Technology.",
           bclass: "bg-wareable",
-          link: "https://www.wareable.com/"
+          link: "https://www.wareable.com/",
+          scrollTo: "#wunderkarten"
         },
         {
-          id: "9",
+          id: "wunderkarten",
           title: "Wunderkarten",
           description: "Web2Print Online Shop.",
           bclass: "bg-wunderkarten",
-          link: "https://www.wunderkarten.de/"
+          link: "https://www.wunderkarten.de/",
+          scrollTo: "#olaph"
         }
       ],
       counter: 0
@@ -149,9 +158,7 @@ export default {
   scroll-behavior: smooth;
 }
 .paginator {
-  position: fixed;
-  top: 50vh;
-  right: 3em;
+  position: relative;
 }
 </style>
 
