@@ -12,17 +12,24 @@
         <div class="columns is-inline-mobile is-fullheight hero-body">
           <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
             <div class="content">
-              <h3 class="title is-size-1 has-text-white">{{ item.title }}</h3>
+              <h3 class="title is-size-1 is-size-2-mobile has-text-white">
+                {{ item.title }}
+              </h3>
               <p class="subtitle is-size-6 has-text-white">
                 {{ item.description }}
               </p>
               <a
                 :href="item.link"
+                :class="item.hideButton"
                 target="_blank"
                 class="button is-rounded is-white is-outlined is-medium m-t-sm"
               >
                 <span>Take me there</span>
-                <span class="icon is-small">
+                <span
+                  class="
+                  icon
+                  is-small"
+                >
                   <i class="fas fa-caret-right"></i> </span
               ></a>
             </div>
@@ -57,6 +64,16 @@ export default {
       activeItem: null,
       items: [
         {
+          id: "sleepunique",
+          title: "Sleep Unique",
+          description:
+            "IoT Smart Bed Solution, incl. Companion Apps for iOS and Android.",
+          bclass: "bg-sleep",
+          link: "http://olaph.io",
+          scrollTo: "#olaph",
+          hideButton: "hide-button"
+        },
+        {
           id: "olaph",
           title: "Olaph",
           description: "Slack-Bot for daily standups.",
@@ -67,10 +84,11 @@ export default {
         {
           id: "urbancoffeediscovery",
           title: "Urban Coffee Discovery",
-          description: "Pop-up Online Shop.",
+          description: "Pop-up Online Shop for Specialty Coffee.",
           bclass: "bg-ucd",
           link: "http://urbancoffeediscovery.com",
-          scrollTo: "#jokidotem"
+          scrollTo: "#jokidotem",
+          hideButton: "hide-button"
         },
         {
           id: "jokidotem",
@@ -129,7 +147,7 @@ export default {
           description: "Web2Print Online Shop.",
           bclass: "bg-wunderkarten",
           link: "https://www.wunderkarten.de/",
-          scrollTo: "#olaph"
+          scrollTo: "#sleepunique"
         }
       ],
       counter: 0
@@ -160,9 +178,18 @@ export default {
 .paginator {
   position: relative;
 }
+.hide-button {
+  display: none !important;
+}
 </style>
 
 <style lang="sass" scoped>
+.bg-sleep
+  background: url("../assets/img/sleepunique_preview-min.png") bottom -5vh right -20vw no-repeat fixed #2D2C4A
+  background-size: 75vh
+  @include tablet
+    background: url("../assets/img/sleepunique_preview-min.png") center right no-repeat fixed #2D2C4A
+    background-size: 70vw
 .bg-olaph
   background: url("../assets/img/olaph_preview_2-min.png") bottom right no-repeat fixed $olaph
   background-size: 110vw
