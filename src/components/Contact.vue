@@ -10,7 +10,7 @@
           >
             That's all folks!<br />
             <span class="title is-5 is-size-5-mobile has-text-grey-light">
-              For more, please finde me here.
+              For more, please find me here.
             </span>
           </h3>
         </div>
