@@ -64,12 +64,22 @@ export default {
       activeItem: null,
       items: [
         {
+          id: "pdh",
+          title: "Digital Hub",
+          description:
+            "Conception & operationalization a new business unit focused on innovating the gardening product line adopting IoT.",
+          bclass: "bg-pdh",
+          link: "",
+          scrollTo: "#sleepunique",
+          hideButton: "hide-button"
+        },
+        {
           id: "sleepunique",
           title: "Sleep Unique",
           description:
             "IoT Smart Bed Solution, incl. Companion Apps for iOS and Android.",
           bclass: "bg-sleep",
-          link: "http://olaph.io",
+          link: "",
           scrollTo: "#olaph",
           hideButton: "hide-button"
         },
@@ -147,7 +157,7 @@ export default {
           description: "Web2Print Online Shop.",
           bclass: "bg-wunderkarten",
           link: "https://www.wunderkarten.de/",
-          scrollTo: "#sleepunique"
+          scrollTo: "#pdh"
         }
       ],
       counter: 0
@@ -184,6 +194,12 @@ export default {
 </style>
 
 <style lang="sass" scoped>
+.bg-pdh
+  background: url("../assets/img/digitalhub_preview.png") bottom 20vh center no-repeat fixed orange
+  background-size: 45vh
+  @include tablet
+    background: url("../assets/img/digitalhub_preview.png") center right 10vw no-repeat fixed orange
+    background-size: 40vw
 .bg-sleep
   background: url("../assets/img/sleepunique_preview-min.png") bottom -5vh right -20vw no-repeat fixed #2D2C4A
   background-size: 75vh

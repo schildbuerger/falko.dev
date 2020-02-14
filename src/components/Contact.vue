@@ -10,7 +10,7 @@
           >
             That's all folks!<br />
             <span class="title is-5 is-size-5-mobile has-text-grey-light">
-              For more, please contact me.
+              For more, please finde me here.
             </span>
           </h3>
         </div>
@@ -18,9 +18,6 @@
       <div
         class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet has-text-centered"
       >
-        <h4 class="title is-1 has-text-white">
-          hi@falko.fyi
-        </h4>
         <div class="columns is-centered is-mobile">
           <div
             class="
