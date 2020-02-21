@@ -2,7 +2,7 @@
   <div>
     <div class="has-snap-slider snap-start is-relative">
       <section
-        class="section is-fullheight hero"
+        class="section fullheight hero"
         :class="item.bclass"
         v-for="item in items"
         :key="item.id"
