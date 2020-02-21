@@ -67,7 +67,7 @@ export default {
           id: "pdh",
           title: "Digital Hub",
           description:
-            "Conception & operationalization a new business unit focused on innovating the gardening product line adopting IoT.",
+            "Conception & operationalization a new business unit focused on innovating the gardening product-line adopting IoT.",
           bclass: "bg-pdh",
           link: "",
           scrollTo: "#sleepunique",
