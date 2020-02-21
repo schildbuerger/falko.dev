@@ -2,14 +2,14 @@
   <div>
     <div class="has-snap-slider snap-start is-relative">
       <section
-        class="section is-fullheight hero"
+        class="section fullheight hero"
         :class="item.bclass"
         v-for="item in items"
         :key="item.id"
         :id="item.id"
         :ref="'slide_' + item.id"
       >
-        <div class="columns is-inline-mobile is-fullheight hero-body">
+        <div class="columns is-inline-mobile hero-body">
           <div class="column is-4-desktop is-offset-1-desktop is-12-mobile">
             <div class="content">
               <h3 class="title is-size-1 is-size-2-mobile has-text-white">
