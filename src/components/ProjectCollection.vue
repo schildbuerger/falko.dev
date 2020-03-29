@@ -216,6 +216,7 @@ export default {
   @media screen and (-webkit-min-device-pixel-ratio:0)
     background: url("../assets/img/olaph_preview_2-min.png") bottom 10vh right no-repeat fixed $olaph
   @include tablet
+    background: url("../assets/img/olaph_preview_2-min.png") bottom right no-repeat fixed $olaph
     background-size: 75vw
   background-color: $olaph
 .bg-jokidotem
