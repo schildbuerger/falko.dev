@@ -1,23 +1,17 @@
 <template>
   <div class="has-scroll-snap">
-    <cHero />
-    <cProjectCollection />
-    <cContact />
+    <cCards />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import cHero from "@/components/Hero.vue";
-import cProjectCollection from "@/components/ProjectCollection.vue";
-import cContact from "@/components/Contact.vue";
+import cCards from "@/components/Cards.vue";
 
 export default {
   name: "vHome",
   components: {
-    cHero,
-    cProjectCollection,
-    cContact
+    cCards
   }
 };
 

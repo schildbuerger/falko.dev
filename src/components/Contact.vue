@@ -1,9 +1,13 @@
 <template>
   <section class="section is-fullheight hero bg">
     <div class="columns is-inline-mobile is-multiline is-fullheight hero-body">
-      <div class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet">
+      <div
+        class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet"
+      >
         <div>
-          <h3 class="title is-1 is-size-1-mobile has-text-white has-text-centered-mobile">
+          <h3
+            class="title is-1 is-size-1-mobile has-text-white has-text-centered-mobile"
+          >
             That's all folks!<br />
             <span class="title is-5 is-size-5-mobile has-text-grey-light">
               For more, please check here.
@@ -11,12 +15,16 @@
           </h3>
         </div>
       </div>
-      <div class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet has-text-centered">
+      <div
+        class="column is-4-desktop is-offset-1-desktop is-12-mobile is-5-tablet is-offset-1-tablet has-text-centered"
+      >
         <div class="columns is-centered is-mobile">
-          <div class="
+          <div
+            class="
           column
           is-2
-          has-text-centered">
+          has-text-centered"
+          >
             <a
               class="icon is-medium has-text-white"
               href="https://www.linkedin.com/in/falkomoeller/"

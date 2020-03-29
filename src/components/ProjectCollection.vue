@@ -197,6 +197,8 @@ export default {
 .bg-pdh
   background: url("../assets/img/digitalhub_preview.png") bottom 20vh center no-repeat fixed orange
   background-size: 45vh
+  -webkit-background: url("../assets/img/digitalhub_preview.png") bottom 30vh center no-repeat fixed orange
+  -webkit-background-size: 45vh
   @include tablet
     background: url("../assets/img/digitalhub_preview.png") center right 10vw no-repeat fixed orange
     background-size: 40vw
