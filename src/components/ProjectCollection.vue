@@ -197,89 +197,66 @@ export default {
 .bg-pdh
   background: url("../assets/img/digitalhub_preview.png") bottom 20vh center no-repeat fixed orange
   background-size: 45vh
-  @media screen and (-webkit-min-device-pixel-ratio:0)
-    background: url("../assets/img/digitalhub_preview.png") bottom 25vh center no-repeat fixed orange
   @include tablet
     background: url("../assets/img/digitalhub_preview.png") center right 10vw no-repeat fixed orange
     background-size: 40vw
 .bg-sleep
   background: url("../assets/img/sleepunique_preview-min.png") bottom -5vh right -20vw no-repeat fixed #2D2C4A
   background-size: 75vh
-  @media screen and (-webkit-min-device-pixel-ratio:0)
-    background: url("../assets/img/sleepunique_preview-min.png") bottom 5vh right -20vw no-repeat fixed #2D2C4A
   @include tablet
     background: url("../assets/img/sleepunique_preview-min.png") center right no-repeat fixed #2D2C4A
     background-size: 70vw
 .bg-olaph
   background: url("../assets/img/olaph_preview_2-min.png") bottom right no-repeat fixed $olaph
   background-size: 110vw
-  @media screen and (-webkit-min-device-pixel-ratio:0)
-    background: url("../assets/img/olaph_preview_2-min.png") bottom 10vh right no-repeat fixed $olaph
   @include tablet
-    background: url("../assets/img/olaph_preview_2-min.png") bottom right no-repeat fixed $olaph
     background-size: 75vw
   background-color: $olaph
 .bg-jokidotem
   background: url("../assets/img/jokidotem_preview-min.png") bottom -15vh right -35vw no-repeat fixed #736f72
   background-size: 75vh
-  @media screen and (-webkit-min-device-pixel-ratio:0)
-    background: url("../assets/img/jokidotem_preview-min.png") bottom -10vh right -35vw no-repeat fixed #736f72
   @include tablet
     background: url("../assets/img/jokidotem_preview-min.png") center right no-repeat fixed #736f72
     background-size: 55vw
 .bg-lava
   background: url("../assets/img/lava_preview_2-min.png") bottom -15vw center no-repeat fixed #f95757
   background-size: 75vw
-  @media screen and (-webkit-min-device-pixel-ratio:0)
-    background: url("../assets/img/lava_preview_2-min.png") bottom -5vw center no-repeat fixed #f95757
   @include tablet
     background: url("../assets/img/lava_preview_2-min.png") bottom -10vw right 10vw no-repeat fixed #f95757
     background-size: 40vw
 .bg-sparwelt
   background: url("../assets/img/sparwelt_preview-min.png") bottom 25vw center no-repeat fixed #196db7
   background-size: 90vw
-  @media screen and (-webkit-min-device-pixel-ratio:0)
-    background: url("../assets/img/sparwelt_preview-min.png") bottom 35vw center no-repeat fixed #196db7
   @include tablet
     background: url("../assets/img/sparwelt_preview-min.png") center right 10vw no-repeat fixed #196db7
     background-size: 60vw
 .bg-spexi
   background: url("../assets/img/spexi_preview-min.png") bottom 5vw right 3vh no-repeat fixed #2f323a
   background-size: 98vw
-  @media screen and (-webkit-min-device-pixel-ratio:0)
-    background: url("../assets/img/spexi_preview-min.png") bottom 15vw right 3vh no-repeat fixed #2f323a
   @include tablet
     background: url("../assets/img/spexi_preview-min.png") center right 10vw no-repeat fixed #2f323a
     background-size: 50vw
 .bg-ucd
   background: url("../assets/img/ucd_preview-min.png") bottom 5vh center no-repeat fixed #f6ad49
   background-size: 100vw
-  @media screen and (-webkit-min-device-pixel-ratio:0)
-    background: url("../assets/img/ucd_preview-min.png") bottom 15vh center no-repeat fixed #f6ad49
   @include tablet
     background: url("../assets/img/ucd_preview-min.png") center right 5vw no-repeat fixed #f6ad49
     background-size: 55vw
 .bg-wareable
   background: url("../assets/img/wareable_preview-min.png") bottom -10vh right -10vw no-repeat fixed #2f323a
   background-size: 80vw
-  @media screen and (-webkit-min-device-pixel-ratio:0)
-    background: url("../assets/img/wareable_preview-min.png") bottom 0vh right -10vw no-repeat fixed #2f323a
   @include tablet
     background: url("../assets/img/wareable_preview-min.png") bottom -5vw right 10vw no-repeat fixed #2f323a
     background-size: 40vw
 .bg-wunderkarten
   background: url("../assets/img/wunderkarten_preview-min.png") bottom 0vh right -55vw no-repeat fixed #9bc53d
   background-size: 150vw
-  @media screen and (-webkit-min-device-pixel-ratio:0)
-    background: url("../assets/img/wunderkarten_preview-min.png") bottom 5vh right -55vw no-repeat fixed #9bc53d
   @include tablet
     background: url("../assets/img/wunderkarten_preview-min.png") bottom -20vw right -30vw no-repeat fixed #9bc53d
     background-size: 100vw
 .bg-bargain
   background: url("../assets/img/bargainmoose_preview-min.png") bottom 5vw right -60vw no-repeat fixed #e71d36
   background-size: 155vw
-  @media screen and (-webkit-min-device-pixel-ratio:0)
-    background: url("../assets/img/bargainmoose_preview-min.png") bottom 15vw right -60vw no-repeat fixed #e71d36
   @include tablet
     background: url("../assets/img/bargainmoose_preview-min.png") center right -20vw no-repeat fixed #e71d36
     background-size: 80vw
