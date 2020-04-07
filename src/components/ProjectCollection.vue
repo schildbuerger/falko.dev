@@ -212,7 +212,7 @@ export default {
 }
 .bg-olaph {
   background-image: url("../assets/img/olaph_preview_2-min.png");
-  background-position: bottom 5vh right;
+  background-position: bottom 10vh right;
   background-size: 110vw;
   background-color: $olaph;
 }
