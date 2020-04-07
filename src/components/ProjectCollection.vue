@@ -265,7 +265,7 @@ export default {
   background-size: 155vw;
 }
 
-@-moz-document url-prefix() {
+@media (-moz-touch-enabled) {
   .bg-pdh {
     background-position: bottom 20vh center;
     background-size: 45vh;
@@ -276,7 +276,7 @@ export default {
   }
   .bg-olaph {
     background-position: bottom right;
-    background-color: $olaph;
+    background-size: 75vw;
   }
   .bg-jokidotem {
     background-position: bottom -15vh right -35vw;
