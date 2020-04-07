@@ -206,7 +206,7 @@ export default {
 }
 .bg-sleep {
   background-image: url("../assets/img/sleepunique_preview-min.png");
-  background-position: bottom 15vh right -20vw;
+  background-position: bottom 10vh center;
   background-color: #2d2c4a;
   background-size: 75vh;
 }
@@ -218,25 +218,25 @@ export default {
 }
 .bg-jokidotem {
   background-image: url("../assets/img/jokidotem_preview-min.png");
-  background-position: bottom -5vh right -35vw;
+  background-position: bottom -10vh right -35vw;
   background-color: #736f72;
   background-size: 75vh;
 }
 .bg-lava {
   background-image: url("../assets/img/lava_preview_2-min.png");
-  background-position: bottom 5vw center;
+  background-position: bottom 5vh center;
   background-color: #f95757;
   background-size: 75vw;
 }
 .bg-sparwelt {
   background-image: url("../assets/img/sparwelt_preview-min.png");
-  background-position: bottom 50vw center;
+  background-position: bottom 15vh center;
   background-color: #196db7;
   background-size: 90vw;
 }
 .bg-spexi {
   background-image: url("../assets/img/spexi_preview-min.png");
-  background-position: bottom 25vw right 1vh;
+  background-position: bottom 0h right 1vh;
   background-color: #2f323a;
   background-size: 98vw;
 }
@@ -248,19 +248,19 @@ export default {
 }
 .bg-wareable {
   background-image: url("../assets/img/wareable_preview-min.png");
-  background-position: bottom 10vh right -10vw;
+  background-position: bottom 5vh right -10vw;
   background-color: #2f323a;
   background-size: 80vw;
 }
 .bg-wunderkarten {
   background-image: url("../assets/img/wunderkarten_preview-min.png");
-  background-position: bottom 5vh right -55vw;
+  background-position: bottom 0vh right -55vw;
   background-color: #9bc53d;
   background-size: 150vw;
 }
 .bg-bargain {
   background-image: url("../assets/img/bargainmoose_preview-min.png");
-  background-position: bottom 30vw right -60vw;
+  background-position: bottom 5vh right -60vw;
   background-color: #e71d36;
   background-size: 155vw;
 }
