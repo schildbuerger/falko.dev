@@ -1,6 +1,6 @@
 <template>
   <div class="has-scroll-snap">
-    <h1 class="is-size-1">Cards</h1>
+    <h1 class="is-size-test">Cards</h1>
     <cCards />
   </div>
 </template>
@@ -37,17 +37,17 @@ window.addEventListener("resize", () => {
 </style>
 
 <style lang="scss">
-.is-size-1 {
+.is-size-test {
   color: blue;
   font-size: 30em !important;
 }
 @-moz-document url-prefix() {
-  .is-size-1 {
+  .is-size-test {
     color: green;
   }
 }
 @media only screen and (min-width: 768px) {
-  .is-size-1 {
+  .is-size-test {
     color: black !important;
   }
 }
