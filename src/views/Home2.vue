@@ -37,17 +37,18 @@ window.addEventListener("resize", () => {
 </style>
 
 <style lang="scss">
-@include mobile {
+.is-size-1 {
+  color: blue;
+  font-size: 30em !important;
+}
+@-moz-document url-prefix() {
   .is-size-1 {
-    color: red;
-  }
-  @supports (-moz-appearance: none) {
-    .is-size-1 {
-      color: green;
-    }
+    color: green;
   }
 }
-@include tablet {
-  color: black;
+@media only screen and (min-width: 768px) {
+  .is-size-1 {
+    color: black !important;
+  }
 }
 </style>

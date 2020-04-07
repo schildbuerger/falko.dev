@@ -2,7 +2,7 @@
   <div>
     <div class="has-snap-slider snap-start is-relative">
       <section
-        class="section is-fullheight hero"
+        class="section is-fullheight hero bg-all"
         :class="item.bclass"
         v-for="item in items"
         :key="item.id"
@@ -193,75 +193,171 @@ export default {
 }
 </style>
 
-<style lang="sass" scoped>
-.bg-pdh
-  background: url("../assets/img/digitalhub_preview.png") bottom 20vh center no-repeat fixed orange
-  background-size: 45vh
-  @include tablet
-    background: url("../assets/img/digitalhub_preview.png") center right 10vw no-repeat fixed orange
-    background-size: 40vw
-.bg-sleep
-  background: url("../assets/img/sleepunique_preview-min.png") bottom -5vh right -20vw no-repeat fixed #2D2C4A
-  background-size: 75vh
-  @include tablet
-    background: url("../assets/img/sleepunique_preview-min.png") center right no-repeat fixed #2D2C4A
-    background-size: 70vw
-.bg-olaph
-  background: url("../assets/img/olaph_preview_2-min.png") bottom right no-repeat fixed $olaph
-  background-size: 110vw
-  @include tablet
-    background-size: 75vw
-  background-color: $olaph
-.bg-jokidotem
-  background: url("../assets/img/jokidotem_preview-min.png") bottom -15vh right -35vw no-repeat fixed #736f72
-  background-size: 75vh
-  @include tablet
-    background: url("../assets/img/jokidotem_preview-min.png") center right no-repeat fixed #736f72
-    background-size: 55vw
-.bg-lava
-  background: url("../assets/img/lava_preview_2-min.png") bottom -15vw center no-repeat fixed #f95757
-  background-size: 75vw
-  @include tablet
-    background: url("../assets/img/lava_preview_2-min.png") bottom -10vw right 10vw no-repeat fixed #f95757
-    background-size: 40vw
-.bg-sparwelt
-  background: url("../assets/img/sparwelt_preview-min.png") bottom 25vw center no-repeat fixed #196db7
-  background-size: 90vw
-  @include tablet
-    background: url("../assets/img/sparwelt_preview-min.png") center right 10vw no-repeat fixed #196db7
-    background-size: 60vw
-.bg-spexi
-  background: url("../assets/img/spexi_preview-min.png") bottom 5vw right 3vh no-repeat fixed #2f323a
-  background-size: 98vw
-  @include tablet
-    background: url("../assets/img/spexi_preview-min.png") center right 10vw no-repeat fixed #2f323a
-    background-size: 50vw
-.bg-ucd
-  background: url("../assets/img/ucd_preview-min.png") bottom 5vh center no-repeat fixed #f6ad49
-  background-size: 100vw
-  @include tablet
-    background: url("../assets/img/ucd_preview-min.png") center right 5vw no-repeat fixed #f6ad49
-    background-size: 55vw
-.bg-wareable
-  background: url("../assets/img/wareable_preview-min.png") bottom -10vh right -10vw no-repeat fixed #2f323a
-  background-size: 80vw
-  @include tablet
-    background: url("../assets/img/wareable_preview-min.png") bottom -5vw right 10vw no-repeat fixed #2f323a
-    background-size: 40vw
-.bg-wunderkarten
-  background: url("../assets/img/wunderkarten_preview-min.png") bottom 0vh right -55vw no-repeat fixed #9bc53d
-  background-size: 150vw
-  @include tablet
-    background: url("../assets/img/wunderkarten_preview-min.png") bottom -20vw right -30vw no-repeat fixed #9bc53d
-    background-size: 100vw
-.bg-bargain
-  background: url("../assets/img/bargainmoose_preview-min.png") bottom 5vw right -60vw no-repeat fixed #e71d36
-  background-size: 155vw
-  @include tablet
-    background: url("../assets/img/bargainmoose_preview-min.png") center right -20vw no-repeat fixed #e71d36
-    background-size: 80vw
-</style>
+<style lang="scss">
+.bg-all {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-pdh {
+  background-image: url("../assets/img/digitalhub_preview.png");
+  background-position: bottom 20vh center;
+  background-color: orange;
+  background-size: 45vh;
+}
+.bg-sleep {
+  background-image: url("../assets/img/sleepunique_preview-min.png");
+  background-position: bottom -5vh right -20vw;
+  background-color: #2d2c4a;
+  background-size: 75vh;
+}
+.bg-olaph {
+  background-image: url("../assets/img/olaph_preview_2-min.png");
+  background-position: bottom right;
+  background-size: 110vw;
+  background-color: $olaph;
+}
+.bg-jokidotem {
+  background-image: url("../assets/img/jokidotem_preview-min.png");
+  background-position: bottom -15vh right -35vw;
+  background-color: #736f72;
+  background-size: 75vh;
+}
+.bg-lava {
+  background-image: url("../assets/img/lava_preview_2-min.png");
+  background-position: bottom -15vw center;
+  background-color: #f95757;
+  background-size: 75vw;
+}
+.bg-sparwelt {
+  background-image: url("../assets/img/sparwelt_preview-min.png");
+  background-position: bottom 25vw center;
+  background-color: #196db7;
+  background-size: 90vw;
+}
+.bg-spexi {
+  background-image: url("../assets/img/spexi_preview-min.png");
+  background-position: bottom 5vw right 3vh;
+  background-color: #2f323a;
+  background-size: 98vw;
+}
+.bg-ucd {
+  background-image: url("../assets/img/ucd_preview-min.png");
+  background-position: bottom 5vh center;
+  background-color: #f6ad49;
+  background-size: 100vw;
+}
+.bg-wareable {
+  background-image: url("../assets/img/wareable_preview-min.png");
+  background-position: bottom -10vh right -10vw;
+  background-color: #2f323a;
+  background-size: 80vw;
+}
+.bg-wunderkarten {
+  background-image: url("../assets/img/wunderkarten_preview-min.png");
+  background-position: bottom 0vh right -55vw;
+  background-color: #9bc53d;
+  background-size: 150vw;
+}
+.bg-bargain {
+  background-image: url("../assets/img/bargainmoose_preview-min.png");
+  background-position: bottom 5vw right -60vw;
+  background-color: #e71d36;
+  background-size: 155vw;
+}
 
+@-moz-document url-prefix() {
+  .bg-pdh {
+    background-position: bottom 20vh center;
+    background-size: 45vh;
+  }
+  .bg-sleep {
+    background-position: bottom -5vh right -20vw;
+    background-size: 75vh;
+  }
+  .bg-olaph {
+    background-position: bottom right;
+    background-color: $olaph;
+  }
+  .bg-jokidotem {
+    background-position: bottom -15vh right -35vw;
+    background-size: 75vh;
+  }
+  .bg-lava {
+    background-position: bottom -15vw center;
+    background-size: 75vw;
+  }
+  .bg-sparwelt {
+    background-position: bottom 25vw center;
+    background-size: 90vw;
+  }
+  .bg-spexi {
+    background-position: bottom 5vw right 3vh;
+    background-size: 98vw;
+  }
+  .bg-ucd {
+    background-position: bottom 5vh center;
+    background-size: 100vw;
+  }
+  .bg-wareable {
+    background-position: bottom -10vh right -10vw;
+    background-size: 80vw;
+  }
+  .bg-wunderkarten {
+    background-position: bottom 0vh right -55vw;
+    background-size: 150vw;
+  }
+  .bg-bargain {
+    background-position: bottom 5vw right -60vw;
+    background-size: 155vw;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .bg-pdh {
+    background-position: center right 10vw;
+    background-size: 40vw;
+  }
+  .bg-sleep {
+    background-position: center right;
+    background-size: 70vw;
+  }
+  .bg-olaph {
+    background-position: bottom right;
+    background-size: 75vw;
+  }
+  .bg-jokidotem {
+    background-position: center right;
+    background-size: 55vw;
+  }
+  .bg-lava {
+    background-position: bottom -10vw right 10vw;
+    background-size: 40vw;
+  }
+  .bg-sparwelt {
+    background-position: center right 10vw;
+    background-size: 60vw;
+  }
+  .bg-spexi {
+    background-position: center right 10vw;
+    background-size: 50vw;
+  }
+  .bg-ucd {
+    background-position: center right 5vw;
+    background-size: 55vw;
+  }
+  .bg-wareable {
+    background-position: bottom -5vw right 10vw;
+    background-size: 40vw;
+  }
+  .bg-wunderkarten {
+    background-position: bottom -20vw right -30vw;
+    background-size: 100vw;
+  }
+  .bg-bargain {
+    background-position: center right -20vw;
+    background-size: 80vw;
+  }
+}
+</style>
 <style lang="scss" scoped>
 .dotstyle {
   position: absolute;
