@@ -226,7 +226,7 @@ export default {
   background-image: url("../assets/img/lava_preview_2-min.png");
   background-position: bottom 0vh center;
   background-color: #f95757;
-  background-size: 75vw;
+  background-size: 75vh;
 }
 .bg-sparwelt {
   background-image: url("../assets/img/sparwelt_preview-min.png");
@@ -238,7 +238,7 @@ export default {
   background-image: url("../assets/img/spexi_preview-min.png");
   background-position: bottom 5vh right 1vh;
   background-color: #2f323a;
-  background-size: 98vw;
+  background-size: 75vh;
 }
 .bg-ucd {
   background-image: url("../assets/img/ucd_preview-min.png");
@@ -250,7 +250,7 @@ export default {
   background-image: url("../assets/img/wareable_preview-min.png");
   background-position: bottom 0vh right -10vw;
   background-color: #2f323a;
-  background-size: 80vw;
+  background-size: 75vh;
 }
 .bg-wunderkarten {
   background-image: url("../assets/img/wunderkarten_preview-min.png");
@@ -260,7 +260,7 @@ export default {
 }
 .bg-bargain {
   background-image: url("../assets/img/bargainmoose_preview-min.png");
-  background-position: bottom 13vh right -60vw;
+  background-position: bottom 14vh right -60vw;
   background-color: #e71d36;
   background-size: 155vw;
 }
