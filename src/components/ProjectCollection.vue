@@ -212,7 +212,7 @@ export default {
 }
 .bg-olaph {
   background-image: url("../assets/img/olaph_preview_2-min.png");
-  background-position: bottom 15vh right;
+  background-position: bottom 12vh right;
   background-size: 110vw;
   background-color: $olaph;
 }
@@ -230,13 +230,13 @@ export default {
 }
 .bg-sparwelt {
   background-image: url("../assets/img/sparwelt_preview-min.png");
-  background-position: bottom 15vh center;
+  background-position: bottom 17vh center;
   background-color: #196db7;
   background-size: 90vw;
 }
 .bg-spexi {
   background-image: url("../assets/img/spexi_preview-min.png");
-  background-position: bottom 0vh right 1vh;
+  background-position: bottom 3vh right 1vh;
   background-color: #2f323a;
   background-size: 98vw;
 }
@@ -260,7 +260,7 @@ export default {
 }
 .bg-bargain {
   background-image: url("../assets/img/bargainmoose_preview-min.png");
-  background-position: bottom 10vh right -60vw;
+  background-position: bottom 11vh right -60vw;
   background-color: #e71d36;
   background-size: 155vw;
 }
