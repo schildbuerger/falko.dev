@@ -212,7 +212,7 @@ export default {
 }
 .bg-olaph {
   background-image: url("../assets/img/olaph_preview_2-min.png");
-  background-position: bottom 10vh right;
+  background-position: bottom 15vh right;
   background-size: 110vw;
   background-color: $olaph;
 }
@@ -224,7 +224,7 @@ export default {
 }
 .bg-lava {
   background-image: url("../assets/img/lava_preview_2-min.png");
-  background-position: bottom 5vh center;
+  background-position: bottom 0vh center;
   background-color: #f95757;
   background-size: 75vw;
 }
@@ -236,19 +236,19 @@ export default {
 }
 .bg-spexi {
   background-image: url("../assets/img/spexi_preview-min.png");
-  background-position: bottom 0h right 1vh;
+  background-position: bottom 0vh right 1vh;
   background-color: #2f323a;
   background-size: 98vw;
 }
 .bg-ucd {
   background-image: url("../assets/img/ucd_preview-min.png");
-  background-position: bottom 25vh center;
+  background-position: bottom 20vh center;
   background-color: #f6ad49;
   background-size: 100vw;
 }
 .bg-wareable {
   background-image: url("../assets/img/wareable_preview-min.png");
-  background-position: bottom 5vh right -10vw;
+  background-position: bottom 0vh right -10vw;
   background-color: #2f323a;
   background-size: 80vw;
 }
@@ -260,7 +260,7 @@ export default {
 }
 .bg-bargain {
   background-image: url("../assets/img/bargainmoose_preview-min.png");
-  background-position: bottom 5vh right -60vw;
+  background-position: bottom 10vh right -60vw;
   background-color: #e71d36;
   background-size: 155vw;
 }
