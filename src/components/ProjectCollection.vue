@@ -265,7 +265,8 @@ export default {
   background-size: 155vw;
 }
 
-@media (-moz-touch-enabled) {
+@-moz-document url-prefix(),
+@supports (-moz-appearance:none) {
   .bg-pdh {
     background-position: bottom 20vh center;
     background-size: 45vh;
