@@ -198,71 +198,73 @@ export default {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.bg-pdh {
-  background-image: url("../assets/img/digitalhub_preview.png");
-  background-position: bottom 30vh center;
-  background-color: orange;
-  background-size: 45vh;
-}
-.bg-sleep {
-  background-image: url("../assets/img/sleepunique_preview-min.png");
-  background-position: bottom 10vh center;
-  background-color: #2d2c4a;
-  background-size: 75vh;
-}
-.bg-olaph {
-  background-image: url("../assets/img/olaph_preview_2-min.png");
-  background-position: bottom 12vh right;
-  background-size: 110vw;
-  background-color: $olaph;
-}
-.bg-jokidotem {
-  background-image: url("../assets/img/jokidotem_preview-min.png");
-  background-position: bottom -10vh right -35vw;
-  background-color: #736f72;
-  background-size: 75vh;
-}
-.bg-lava {
-  background-image: url("../assets/img/lava_preview_2-min.png");
-  background-position: bottom 0vh center;
-  background-color: #f95757;
-  background-size: 40vh;
-}
-.bg-sparwelt {
-  background-image: url("../assets/img/sparwelt_preview-min.png");
-  background-position: bottom 17vh center;
-  background-color: #196db7;
-  background-size: 90vw;
-}
-.bg-spexi {
-  background-image: url("../assets/img/spexi_preview-min.png");
-  background-position: bottom 10vh right 1vh;
-  background-color: #2f323a;
-  background-size: 55vh;
-}
-.bg-ucd {
-  background-image: url("../assets/img/ucd_preview-min.png");
-  background-position: bottom 20vh center;
-  background-color: #f6ad49;
-  background-size: 100vw;
-}
-.bg-wareable {
-  background-image: url("../assets/img/wareable_preview-min.png");
-  background-position: bottom 0vh right -10vw;
-  background-color: #2f323a;
-  background-size: 40vh;
-}
-.bg-wunderkarten {
-  background-image: url("../assets/img/wunderkarten_preview-min.png");
-  background-position: bottom 0vh right -55vw;
-  background-color: #9bc53d;
-  background-size: 150vw;
-}
-.bg-bargain {
-  background-image: url("../assets/img/bargainmoose_preview-min.png");
-  background-position: bottom 15vh right -60vw;
-  background-color: #e71d36;
-  background-size: 155vw;
+@media (-webkit-min-device-pixel-ratio: 0) {
+  .bg-pdh {
+    background-image: url("../assets/img/digitalhub_preview.png");
+    background-position: bottom 30vh center;
+    background-color: orange;
+    background-size: 45vh;
+  }
+  .bg-sleep {
+    background-image: url("../assets/img/sleepunique_preview-min.png");
+    background-position: bottom 10vh center;
+    background-color: #2d2c4a;
+    background-size: 75vh;
+  }
+  .bg-olaph {
+    background-image: url("../assets/img/olaph_preview_2-min.png");
+    background-position: bottom 12vh right;
+    background-size: 110vw;
+    background-color: $olaph;
+  }
+  .bg-jokidotem {
+    background-image: url("../assets/img/jokidotem_preview-min.png");
+    background-position: bottom -10vh right -35vw;
+    background-color: #736f72;
+    background-size: 75vh;
+  }
+  .bg-lava {
+    background-image: url("../assets/img/lava_preview_2-min.png");
+    background-position: bottom 0vh center;
+    background-color: #f95757;
+    background-size: 40vh;
+  }
+  .bg-sparwelt {
+    background-image: url("../assets/img/sparwelt_preview-min.png");
+    background-position: bottom 17vh center;
+    background-color: #196db7;
+    background-size: 90vw;
+  }
+  .bg-spexi {
+    background-image: url("../assets/img/spexi_preview-min.png");
+    background-position: bottom 10vh right 1vh;
+    background-color: #2f323a;
+    background-size: 55vh;
+  }
+  .bg-ucd {
+    background-image: url("../assets/img/ucd_preview-min.png");
+    background-position: bottom 20vh center;
+    background-color: #f6ad49;
+    background-size: 100vw;
+  }
+  .bg-wareable {
+    background-image: url("../assets/img/wareable_preview-min.png");
+    background-position: bottom 0vh right -10vw;
+    background-color: #2f323a;
+    background-size: 40vh;
+  }
+  .bg-wunderkarten {
+    background-image: url("../assets/img/wunderkarten_preview-min.png");
+    background-position: bottom 0vh right -55vw;
+    background-color: #9bc53d;
+    background-size: 150vw;
+  }
+  .bg-bargain {
+    background-image: url("../assets/img/bargainmoose_preview-min.png");
+    background-position: bottom 15vh right -60vw;
+    background-color: #e71d36;
+    background-size: 155vw;
+  }
 }
 
 @-moz-document url-prefix(),
@@ -276,7 +278,7 @@ export default {
     background-size: 75vh;
   }
   .bg-olaph {
-    background-position: bottom right;
+    background-position: bottom 0vh right;
     background-size: 75vw;
   }
   .bg-jokidotem {
