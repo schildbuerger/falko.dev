@@ -1,5 +1,6 @@
 <template>
   <div class="has-scroll-snap">
+    <h1 class="is-size-1">Cards</h1>
     <cCards />
   </div>
 </template>
@@ -32,5 +33,21 @@ window.addEventListener("resize", () => {
 .fullheight {
   height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
   height: calc(var(--vh, 1vh) * 100);
+}
+</style>
+
+<style lang="scss">
+@include mobile {
+  .is-size-1 {
+    color: red;
+  }
+  @supports (-moz-appearance: none) {
+    .is-size-1 {
+      color: green;
+    }
+  }
+}
+@include tablet {
+  color: black;
 }
 </style>
