@@ -236,7 +236,7 @@ export default {
 }
 .bg-spexi {
   background-image: url("../assets/img/spexi_preview-min.png");
-  background-position: bottom 3vh right 1vh;
+  background-position: bottom 5vh right 1vh;
   background-color: #2f323a;
   background-size: 98vw;
 }
@@ -260,7 +260,7 @@ export default {
 }
 .bg-bargain {
   background-image: url("../assets/img/bargainmoose_preview-min.png");
-  background-position: bottom 11vh right -60vw;
+  background-position: bottom 13vh right -60vw;
   background-color: #e71d36;
   background-size: 155vw;
 }
