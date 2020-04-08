@@ -35,9 +35,14 @@
             </div>
           </div>
         </div>
-        <div class="paginator">
+        <div class="desktop-paginator is-hidden-touch">
           <a :href="item.scrollTo">
             <span class="arrow"> </span>
+          </a>
+        </div>
+        <div class="touch-paginator is-hidden-desktop">
+          <a>
+            <span class="arrow-small"> </span>
           </a>
         </div>
       </section>
@@ -185,8 +190,13 @@ export default {
   scroll-snap-align: start;
   scroll-behavior: smooth;
 }
-.paginator {
+.desktop-paginator {
   position: relative;
+}
+.touch-paginator {
+  position: fixed;
+  right: 25px;
+  top: 50vh;
 }
 .hide-button {
   display: none !important;
@@ -428,6 +438,39 @@ export default {
 </style>
 
 <style lang="sass">
+.arrow-small,
+.arrow-small:before
+  position: absolute
+  left: 50%
+.arrow-small
+  width: 20px
+  height: 20px
+  top: 50%
+  margin: -20px 0 0 -20px
+  -webkit-transform: rotate(-45deg)
+  border-left: none
+  border-top: none
+  border-right: 2px #fff solid
+  border-bottom: 2px #fff solid
+.arrow-small:before
+  content: ''
+  width: 20px
+  height: 20px
+  top: 50%
+  margin: -10px 0 0 -10px
+  border-left: none
+  border-top: none
+  border-right: 1px #fff solid
+  border-bottom: 1px #fff solid
+  animation-duration: 2s
+  animation-iteration-count: infinite
+  animation-name: arrow
+@keyframes arrow-small
+  0%
+    opacity: 1
+  100%
+    opacity: 0
+    transform: translate(-10px, -10px)
 .arrow,
 .arrow:before
   position: absolute
